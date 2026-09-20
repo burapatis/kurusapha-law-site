@@ -7,8 +7,8 @@
       "กฎหมายหลัก",
       "กฎหมายหลักการศึกษา"
     ],
-    "count": 189,
-    "fulltextDocs": 175,
+    "count": 185,
+    "fulltextDocs": 174,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,12 +40,12 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 185,
+      "unverified": 181,
       "in_force": 1,
       "repealed": 3
     },
     "verificationCounts": {
-      "unverified": 185,
+      "unverified": 181,
       "reviewed": 4
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
@@ -106,8 +106,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -116,20 +115,6 @@
           "ext": "pdf",
           "sha256": "bfb09f5571a2ef2ce5b19c8c5de7f36a928fc124d903b3a2e95fc5679855f89c",
           "bytes": 930085
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ยุทธศาสตร์ชาติ 20 ปี พ.ศ. 2561-2580.pdf",
-          "ext": "pdf",
-          "sha256": "bfb09f5571a2ef2ce5b19c8c5de7f36a928fc124d903b3a2e95fc5679855f89c",
-          "bytes": 930085
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ยุทธศาสตร์ชาติ 20 ปี พ.ศ. 2561-2580.txt",
-          "ext": "txt",
-          "sha256": "c70ce434f51baa5cc823f190bca4da419a1b8dec72858ee57d0119f5641eeb9e",
-          "bytes": 539670
         }
       ],
       "isKurusapha": false,
@@ -165,8 +150,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -175,20 +159,6 @@
           "ext": "pdf",
           "sha256": "9e9e4ce4882d2c81033303ae24c925b3333bd2bc42ebe4ea16eeaa025aaed7c7",
           "bytes": 2118925
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ประมวลกฎหมายอาญา แก้ไขถึงฉบับที่ 30 พ.ศ. 2568.pdf",
-          "ext": "pdf",
-          "sha256": "9e9e4ce4882d2c81033303ae24c925b3333bd2bc42ebe4ea16eeaa025aaed7c7",
-          "bytes": 2118925
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ประมวลกฎหมายอาญา แก้ไขถึงฉบับที่ 30 พ.ศ. 2568.txt",
-          "ext": "txt",
-          "sha256": "c5f64066ecd4f571087dc38e7bbc5ca263729750e9341b5a33fd3f20e291a02e",
-          "bytes": 721844
         }
       ],
       "isKurusapha": false,
@@ -224,19 +194,11 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
           "corpus": "กฎหมายหลัก",
-          "path": "พ.ร.บ. ยกเลิกประกาศและคำสั่ง คสช. บางฉบับ พ.ศ. 2568.pdf",
-          "ext": "pdf",
-          "sha256": "e8a6d896818d080124ade0dbd6f77befdb2e76ab99d6fd5fbd888c7b1a64866e",
-          "bytes": 6194337
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
           "path": "พ.ร.บ. ยกเลิกประกาศและคำสั่ง คสช. บางฉบับ พ.ศ. 2568.pdf",
           "ext": "pdf",
           "sha256": "e8a6d896818d080124ade0dbd6f77befdb2e76ab99d6fd5fbd888c7b1a64866e",
@@ -672,8 +634,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -682,20 +643,6 @@
           "ext": "pdf",
           "sha256": "c8ac1af8e393bd56904f78ae278cb6cb35020844f56016c05cecd12cfad7b497",
           "bytes": 2747115
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ตำราหลักกฎหมายมหาชน พ.ศ. 2564.pdf",
-          "ext": "pdf",
-          "sha256": "c8ac1af8e393bd56904f78ae278cb6cb35020844f56016c05cecd12cfad7b497",
-          "bytes": 2747115
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ตำราหลักกฎหมายมหาชน พ.ศ. 2564.txt",
-          "ext": "txt",
-          "sha256": "904e305f523805ed2aa6a4d9fff05dd0458590b1dab544bfcb96caca7eaf2b72",
-          "bytes": 91194
         }
       ],
       "isKurusapha": false,
@@ -731,8 +678,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -741,20 +687,6 @@
           "ext": "pdf",
           "sha256": "9c238855d96f1ebebaa9f86d17fc34c0e90a5fa70f99cd7e0e1bbd1b4e21f17d",
           "bytes": 122032
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย ฉบับแก้ไข พ.ศ. 2564.pdf",
-          "ext": "pdf",
-          "sha256": "9c238855d96f1ebebaa9f86d17fc34c0e90a5fa70f99cd7e0e1bbd1b4e21f17d",
-          "bytes": 122032
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย ฉบับแก้ไข พ.ศ. 2564.txt",
-          "ext": "txt",
-          "sha256": "c3d1af4c19519dcc990fd3de1879034043acb6b0efaa37dade1c78bc457a719c",
-          "bytes": 716
         }
       ],
       "isKurusapha": false,
@@ -878,8 +810,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -888,20 +819,6 @@
           "ext": "pdf",
           "sha256": "62815c8fccfa81e2721e314dfefe78721ca699133d04ce5e2b3a252376c320e7",
           "bytes": 560344
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.ป. ป้องกันและปราบปรามการทุจริต พ.ศ. 2561.pdf",
-          "ext": "pdf",
-          "sha256": "62815c8fccfa81e2721e314dfefe78721ca699133d04ce5e2b3a252376c320e7",
-          "bytes": 560344
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.ป. ป้องกันและปราบปรามการทุจริต พ.ศ. 2561.txt",
-          "ext": "txt",
-          "sha256": "40c9b1297dc847812b824bcc07278c44626c15c1681401a94bd022f928849f32",
-          "bytes": 468390
         }
       ],
       "isKurusapha": false,
@@ -937,8 +854,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -947,20 +863,6 @@
           "ext": "pdf",
           "sha256": "39fdd3efe3b99b5f1490b6fc85a7c0d9795a4ce39861fd24265be505de79c9c1",
           "bytes": 11878941
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "คำอธิบายรายมาตรารัฐธรรมนูญ พ.ศ. 2560.pdf",
-          "ext": "pdf",
-          "sha256": "39fdd3efe3b99b5f1490b6fc85a7c0d9795a4ce39861fd24265be505de79c9c1",
-          "bytes": 11878941
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "คำอธิบายรายมาตรารัฐธรรมนูญ พ.ศ. 2560.txt",
-          "ext": "txt",
-          "sha256": "70fa99228c431d8d10cffbed82abdaf5f774ecae47f0fa9422a5409f7ca9efc1",
-          "bytes": 2353086
         }
       ],
       "isKurusapha": false,
@@ -1084,8 +986,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1094,20 +995,6 @@
           "ext": "pdf",
           "sha256": "65c6c42cb6f5dbb62eaa5833c3f100726fff408bca772cead387dc922ce4133f",
           "bytes": 596245
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560.pdf",
-          "ext": "pdf",
-          "sha256": "65c6c42cb6f5dbb62eaa5833c3f100726fff408bca772cead387dc922ce4133f",
-          "bytes": 596245
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560.txt",
-          "ext": "txt",
-          "sha256": "b4004ff4cfe63902608d58827869d23508fa0b7996fbba8fb72e7635e87eef16",
-          "bytes": 596844
         }
       ],
       "isKurusapha": false,
@@ -1143,8 +1030,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1153,20 +1039,6 @@
           "ext": "pdf",
           "sha256": "1151bd58b13a1732f6b4df967c5d270f0a3283d2da0d8efec73ced732a1efc41",
           "bytes": 3162879
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560 ภาษาอังกฤษ.pdf",
-          "ext": "pdf",
-          "sha256": "1151bd58b13a1732f6b4df967c5d270f0a3283d2da0d8efec73ced732a1efc41",
-          "bytes": 3162879
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560 ภาษาอังกฤษ.txt",
-          "ext": "txt",
-          "sha256": "6b498c8a31799bb05a9b400b6b07e864e4a58ddb59851b5a415a4e63479c8476",
-          "bytes": 334206
         }
       ],
       "isKurusapha": false,
@@ -1202,8 +1074,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1212,20 +1083,6 @@
           "ext": "pdf",
           "sha256": "64819fa73db24fc54dd57a636ffd4cc9beafef45c2de44df63855631ca0cc353",
           "bytes": 87732
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พระราชกฤษฎีกาว่าด้วยการมอบอำนาจ พ.ศ. 2550.pdf",
-          "ext": "pdf",
-          "sha256": "64819fa73db24fc54dd57a636ffd4cc9beafef45c2de44df63855631ca0cc353",
-          "bytes": 87732
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พระราชกฤษฎีกาว่าด้วยการมอบอำนาจ พ.ศ. 2550.txt",
-          "ext": "txt",
-          "sha256": "1da48af0cbcf0dfe7d0de207bdc390ff76ff1608d80fc6fffb6ccc77fbf8c910",
-          "bytes": 94863
         }
       ],
       "isKurusapha": false,
@@ -1261,8 +1118,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1271,20 +1127,6 @@
           "ext": "pdf",
           "sha256": "afe0c2f6ab4c77fbd37f5ca47eb0b59186b8500b812904c7e73ec0eb2894680d",
           "bytes": 156847
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พระราชกฤษฎีกาบริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546.pdf",
-          "ext": "pdf",
-          "sha256": "afe0c2f6ab4c77fbd37f5ca47eb0b59186b8500b812904c7e73ec0eb2894680d",
-          "bytes": 156847
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พระราชกฤษฎีกาบริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546.txt",
-          "ext": "txt",
-          "sha256": "85dcf706d003d5431c7557837a1f722372d74ae2259b3bec8c676504bcf125d0",
-          "bytes": 159355
         }
       ],
       "isKurusapha": false,
@@ -1320,8 +1162,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1330,20 +1171,6 @@
           "ext": "pdf",
           "sha256": "55f0399153073bbd3e2c7a3fe9770d1c449ea15649a1bc25724817e082cd4e0e",
           "bytes": 367543
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดี พ.ศ. 2542.pdf",
-          "ext": "pdf",
-          "sha256": "55f0399153073bbd3e2c7a3fe9770d1c449ea15649a1bc25724817e082cd4e0e",
-          "bytes": 367543
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดี พ.ศ. 2542.txt",
-          "ext": "txt",
-          "sha256": "8e077ffecf75c5e2f806bb2d6090aae9e9d6d53a146d538cbfc18d9568c74bba",
-          "bytes": 445667
         }
       ],
       "isKurusapha": false,
@@ -1379,8 +1206,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1389,20 +1215,6 @@
           "ext": "pdf",
           "sha256": "f7626cc05d910a3906263519eabc46da82d2ed1feae51db605989ec3f1d5cb68",
           "bytes": 47563
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ประกาศ ก.พ.ร. หลักมอบอำนาจต่างจากมาตรา 23.pdf",
-          "ext": "pdf",
-          "sha256": "f7626cc05d910a3906263519eabc46da82d2ed1feae51db605989ec3f1d5cb68",
-          "bytes": 47563
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "ประกาศ ก.พ.ร. หลักมอบอำนาจต่างจากมาตรา 23.txt",
-          "ext": "txt",
-          "sha256": "85729fc75c5f72fab9d7187822c61202865da50d5f4e32c2ce60ff6919abf52d",
-          "bytes": 6918
         }
       ],
       "isKurusapha": false,
@@ -1438,8 +1250,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1448,20 +1259,6 @@
           "ext": "pdf",
           "sha256": "bbcfc692f025fd21f116f4526291206858a6c73b8ddc8bb54bc6c8843db0d3a4",
           "bytes": 159839
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "สรุปหลักธรรมาภิบาล 10 ประการ.pdf",
-          "ext": "pdf",
-          "sha256": "bbcfc692f025fd21f116f4526291206858a6c73b8ddc8bb54bc6c8843db0d3a4",
-          "bytes": 159839
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "สรุปหลักธรรมาภิบาล 10 ประการ.txt",
-          "ext": "txt",
-          "sha256": "5fd554f8c69781210bae059856f2391a20f6d4a734df4a333ad4ddfcf6c83783",
-          "bytes": 10411
         }
       ],
       "isKurusapha": false,
@@ -1497,8 +1294,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1507,20 +1303,6 @@
           "ext": "pdf",
           "sha256": "5bf325e4d55fcb18d3e796e04af11698aef53a2ae2614e89d5ee9f7624101fac",
           "bytes": 893554
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "สื่อการสอนหลักกฎหมายมหาชน.pdf",
-          "ext": "pdf",
-          "sha256": "5bf325e4d55fcb18d3e796e04af11698aef53a2ae2614e89d5ee9f7624101fac",
-          "bytes": 893554
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "สื่อการสอนหลักกฎหมายมหาชน.txt",
-          "ext": "txt",
-          "sha256": "b8f8fe57acd6885426b7590b2b1c9db6601fe1bf651e5fdadf779ce6b8d6a232",
-          "bytes": 62616
         }
       ],
       "isKurusapha": false,
@@ -1556,8 +1338,7 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายหลัก",
       "sourceCorpora": [
-        "กฎหมายหลัก",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายหลัก"
       ],
       "sources": [
         {
@@ -1566,20 +1347,6 @@
           "ext": "pdf",
           "sha256": "53e7c63b6a598664c5cb2805808e642d97b373f564380961b97c2f12c1a8ae62",
           "bytes": 360191
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "หลักธรรมาภิบาลเพื่อการบริหารกิจการบ้านเมืองที่ดี.pdf",
-          "ext": "pdf",
-          "sha256": "53e7c63b6a598664c5cb2805808e642d97b373f564380961b97c2f12c1a8ae62",
-          "bytes": 360191
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "หลักธรรมาภิบาลเพื่อการบริหารกิจการบ้านเมืองที่ดี.txt",
-          "ext": "txt",
-          "sha256": "4f8450a1bb8fd14e501e67d6efecd4d72ecc002a5d9ddb5bd7c622d3ae942228",
-          "bytes": 22454
         }
       ],
       "isKurusapha": false,
@@ -1888,20 +1655,6 @@
           "ext": "pdf",
           "sha256": "a9351be090064980e9dc9deffc48b05bf7d1c0ae69b55336bf219cb5895130aa",
           "bytes": 122584
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ.การจัดการศึกษาสำหรับคนพิการ พ.ศ.2551 และที่แก้ไขเพิ่มเติม .pdf",
-          "ext": "pdf",
-          "sha256": "a9351be090064980e9dc9deffc48b05bf7d1c0ae69b55336bf219cb5895130aa",
-          "bytes": 122584
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ.การจัดการศึกษาสำหรับคนพิการ พ.ศ.2551 และที่แก้ไขเพิ่มเติม .txt",
-          "ext": "txt",
-          "sha256": "e9da34c401871b3d2089731adb350cc5bce66780376933a8f413f240d3a7647e",
-          "bytes": 106149
         }
       ],
       "isKurusapha": false,
@@ -2245,20 +1998,12 @@
       "ext": "txt",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "11_ข้อความประกอบเอกสาร/พ.ร.บ. การศึกษาแห่งชาติ 2542 - ภาษาอังกฤษ ฉบับกฤษฎีกา ข้อความ.txt",
-          "ext": "txt",
-          "sha256": "25fc12253e75932d932a5c20abe858c135c98ba5a24a101e55da9f42a83db1bb",
-          "bytes": 59033
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "NATIONAL_EDUCATION_ACTB.E._2542.txt",
           "ext": "txt",
           "sha256": "25fc12253e75932d932a5c20abe858c135c98ba5a24a101e55da9f42a83db1bb",
           "bytes": 59033
@@ -3888,13 +3633,6 @@
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "06_คำสั่ง_มติ_หนังสือเวียน/คำสั่งหัวหน้า คสช. ที่ 17-2560 เรื่อง แก้ไขเพิ่มเติมคำสั่งหัวหน้า คสช. ที่ 7-2558.pdf",
-          "ext": "pdf",
-          "sha256": "0c7d4c64872d7435e1b265cc49c0a7658cfc83b15f838c7696f9a510e699e0d1",
-          "bytes": 30802
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "คำสั่งหัวหน้า คสช. 17-2560 แก้ไขคำสั่งคุรุสภา.pdf",
           "ext": "pdf",
           "sha256": "0c7d4c64872d7435e1b265cc49c0a7658cfc83b15f838c7696f9a510e699e0d1",
           "bytes": 30802
@@ -6932,20 +6670,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลัก"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "04_ระเบียบ/ระเบียบสำนักนายกรัฐมนตรี - งานสารบรรณ 2526 รวมแก้ไขถึงฉบับที่ 4 2564.pdf",
-          "ext": "pdf",
-          "sha256": "54ead423e964d0c63755bba3fe1c2dc15d05bade841cb6edc058eba0fd5c0aad",
-          "bytes": 3209251
-        },
-        {
-          "corpus": "กฎหมายหลัก",
-          "path": "ระเบียบงานสารบรรณ ถึง ฉ4.pdf",
           "ext": "pdf",
           "sha256": "54ead423e964d0c63755bba3fe1c2dc15d05bade841cb6edc058eba0fd5c0aad",
           "bytes": 3209251
@@ -7613,13 +7343,6 @@
         },
         {
           "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. กองทุนเพื่อความเสมอภาคทางการศึกษา พ.ศ. 2561 ภาษาอังกฤษ.pdf",
-          "ext": "pdf",
-          "sha256": "6fd89d9b3ffbc19aa5524321503c28cf5fd4d535a4a8db11c0577125fc9d8b30",
-          "bytes": 1911096
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
           "path": "พ.ร.บ. กองทุนเพื่อความเสมอภาคทางการศึกษา พ.ศ. 2561 ภาษาอังกฤษ.txt",
           "ext": "txt",
           "sha256": "e2c4a3e4be1a8ef196e43b970ba6533fb8924c3b108d2cd55d0fb00ae5b472cb",
@@ -7747,20 +7470,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "01_รัฐธรรมนูญและพระราชบัญญัติ/รัฐธรรมนูญแห่งราชอาณาจักรไทย พุทธศักราช 2560.pdf",
-          "ext": "pdf",
-          "sha256": "b6e5be4889862f25d2cc6b7e1e4c3fc5aec29d840f69eb94fde7627a2efc5b3f",
-          "bytes": 595476
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    01_รัฐธรรมนูญแห่งราชอาณาจักรไทย_2560.pdf",
           "ext": "pdf",
           "sha256": "b6e5be4889862f25d2cc6b7e1e4c3fc5aec29d840f69eb94fde7627a2efc5b3f",
           "bytes": 595476
@@ -7850,13 +7565,6 @@
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "01_รัฐธรรมนูญและพระราชบัญญัติ/พระราชบัญญัติโรงเรียนเอกชน พ.ศ. 2550 รวมแก้ไขฉบับที่ 2 พ.ศ. 2554 - ภาษาอังกฤษ.pdf",
-          "ext": "pdf",
-          "sha256": "d7bdd15cd6dc7d8a8949c45fe30fece8ce2e2f06cbacdeeb82ee6de8a31b0219",
-          "bytes": 356139
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. โรงเรียนเอกชน พ.ศ. 2550 ภาษาอังกฤษ.pdf",
           "ext": "pdf",
           "sha256": "d7bdd15cd6dc7d8a8949c45fe30fece8ce2e2f06cbacdeeb82ee6de8a31b0219",
           "bytes": 356139
@@ -8122,20 +7830,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "01_รัฐธรรมนูญและพระราชบัญญัติ/พระราชบัญญัติการศึกษาแห่งชาติ พ.ศ. 2542 รวมแก้ไขฉบับที่ 2 พ.ศ. 2545 - ไทยและอังกฤษ.pdf",
-          "ext": "pdf",
-          "sha256": "9944e943d7d9ab705e95125dbe28e861c8f4f91a913d5e9c4406492eec635e1e",
-          "bytes": 56501807
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. การศึกษาแห่งชาติ พ.ศ. 2542 แก้ไขถึงฉบับที่ 2 ภาษาไทย-อังกฤษ.pdf",
           "ext": "pdf",
           "sha256": "9944e943d7d9ab705e95125dbe28e861c8f4f91a913d5e9c4406492eec635e1e",
           "bytes": 56501807
@@ -8174,20 +7874,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "01_รัฐธรรมนูญและพระราชบัญญัติ/พ.ร.บ. การศึกษาแห่งชาติ 2542 - ภาษาอังกฤษ ฉบับกฤษฎีกา.pdf",
-          "ext": "pdf",
-          "sha256": "00f1a15153ee3166839a95fde3f9ec5017d9e58eeae1450467150b9e1bebe7ee",
-          "bytes": 912128
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "NATIONAL_EDUCATION_ACTB.E._2542.pdf",
           "ext": "pdf",
           "sha256": "00f1a15153ee3166839a95fde3f9ec5017d9e58eeae1450467150b9e1bebe7ee",
           "bytes": 912128
@@ -8226,20 +7918,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "01_รัฐธรรมนูญและพระราชบัญญัติ/พ.ร.บ. การศึกษาแห่งชาติ 2542 - ภาษาอังกฤษ ฉบับสำนักงาน กก.การศึกษาแห่งชาติ.pdf",
-          "ext": "pdf",
-          "sha256": "c5f0de46a0727767730a144cb1e607332814c87baef4978ed59c58841b397eb7",
-          "bytes": 163869
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "พ.ร.บ. การศึกษาแห่งชาติ พ.ศ. 2542 ภาษาอังกฤษ.pdf",
           "ext": "pdf",
           "sha256": "c5f0de46a0727767730a144cb1e607332814c87baef4978ed59c58841b397eb7",
           "bytes": 163869
@@ -8312,182 +7996,6 @@
       "textChars": 23771
     },
     {
-      "id": "doc-3873840d",
-      "title": "สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 01",
-      "file": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 01.jpg",
-      "category": "แบบฟอร์ม/สัญญา",
-      "type": "อื่น ๆ",
-      "issuer": "ไม่ระบุ",
-      "year": 2565,
-      "ext": "jpg",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 01.jpg",
-          "ext": "jpg",
-          "sha256": "f2d5018ae322e3e05ebb1004258c16eba53c1a7c49d0ffd78b38295b5ba8bc25",
-          "bytes": 223531
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": false,
-      "publicFulltext": true,
-      "textSource": null,
-      "textChars": null
-    },
-    {
-      "id": "doc-ca543709",
-      "title": "สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 02",
-      "file": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 02.jpg",
-      "category": "แบบฟอร์ม/สัญญา",
-      "type": "อื่น ๆ",
-      "issuer": "ไม่ระบุ",
-      "year": 2565,
-      "ext": "jpg",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 02.jpg",
-          "ext": "jpg",
-          "sha256": "b42b0ff2db4a7e7f7d1024a88a7dc4609c4396c6c8ce5325dca7b922d1c9be56",
-          "bytes": 190128
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": false,
-      "publicFulltext": true,
-      "textSource": null,
-      "textChars": null
-    },
-    {
-      "id": "doc-0081c12d",
-      "title": "สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 03",
-      "file": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 03.jpg",
-      "category": "แบบฟอร์ม/สัญญา",
-      "type": "อื่น ๆ",
-      "issuer": "ไม่ระบุ",
-      "year": 2565,
-      "ext": "jpg",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "10_แบบฟอร์มและสัญญา/สัญญาจ้างรองเลขาธิการคุรุสภา พ.ศ. 2565 - หน้า 03.jpg",
-          "ext": "jpg",
-          "sha256": "438a167e9f49ea4925b530b76771ae74bc204f22859f039372da23aea54ca148",
-          "bytes": 184931
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": false,
-      "publicFulltext": true,
-      "textSource": null,
-      "textChars": null
-    },
-    {
-      "id": "doc-fa1b4288",
-      "title": "ใบสมัครเข้ารับการสรรหาเพื่อแต่งตั้งให้ดำรงตำแหน่งเลขาธิการคุรุสภา",
-      "file": "10_แบบฟอร์มและสัญญา/ใบสมัครเข้ารับการสรรหาเพื่อแต่งตั้งให้ดำรงตำแหน่งเลขาธิการคุรุสภา.docx",
-      "category": "แบบฟอร์ม/สัญญา",
-      "type": "อื่น ๆ",
-      "issuer": "ไม่ระบุ",
-      "year": null,
-      "ext": "docx",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "10_แบบฟอร์มและสัญญา/ใบสมัครเข้ารับการสรรหาเพื่อแต่งตั้งให้ดำรงตำแหน่งเลขาธิการคุรุสภา.docx",
-          "ext": "docx",
-          "sha256": "aaf6a4b500a179adfcd9ba9d0dd17fee0e13f0e7f010daab2ecdc6a803f1e8a5",
-          "bytes": 73286
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "docx",
-      "textChars": 10383
-    },
-    {
       "id": "doc-a6aef267",
       "title": "แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579",
       "file": "09_แผน_สถิติ_รายงาน/แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579.pdf",
@@ -8505,20 +8013,6 @@
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "09_แผน_สถิติ_รายงาน/แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579.pdf",
-          "ext": "pdf",
-          "sha256": "234c67769e14f7870102fd66a3e6955fa5081985e66075bf18f3dc160cf02965",
-          "bytes": 16998282
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    03_แผนการศึกษาแห่งชาติ_2560-2579.pdf",
-          "ext": "pdf",
-          "sha256": "234c67769e14f7870102fd66a3e6955fa5081985e66075bf18f3dc160cf02965",
-          "bytes": 16998282
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579 ฉบับเต็ม.pdf",
           "ext": "pdf",
           "sha256": "234c67769e14f7870102fd66a3e6955fa5081985e66075bf18f3dc160cf02965",
           "bytes": 16998282
@@ -8564,20 +8058,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "09_แผน_สถิติ_รายงาน/ร่างแผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ ฉบับที่ 13 พ.ศ. 2566-2570.pdf",
-          "ext": "pdf",
-          "sha256": "6eda6003a966592a325a4e3f5058065857d2c9c81c3df5dcdec16c8b58149b6d",
-          "bytes": 5543490
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    02_แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ_ฉบับที่13_2566-2570.pdf",
           "ext": "pdf",
           "sha256": "6eda6003a966592a325a4e3f5058065857d2c9c81c3df5dcdec16c8b58149b6d",
           "bytes": 5543490
@@ -8616,20 +8102,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "09_แผน_สถิติ_รายงาน/สถานการณ์ความเหลื่อมล้ำทางการศึกษาปี 2567 และทิศทางสำคัญในปี 2568.pdf",
-          "ext": "pdf",
-          "sha256": "9d5d2be24c81236ef1c132d810e93943e6da0c086314fbff253ec0a79e11a207",
-          "bytes": 7202718
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    05_สถานการณ์ความเหลื่อมล้ำทางการศึกษา_2567_ทิศทาง2568.pdf",
           "ext": "pdf",
           "sha256": "9d5d2be24c81236ef1c132d810e93943e6da0c086314fbff253ec0a79e11a207",
           "bytes": 7202718
@@ -8668,20 +8146,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "09_แผน_สถิติ_รายงาน/สถิติการศึกษาของประเทศไทย ปีการศึกษา 2567 - สำนักงานเลขาธิการสภาการศึกษา.pdf",
-          "ext": "pdf",
-          "sha256": "f8b42a4810d0d598bd284e71187db2262d5df118b105e7480ae610af580b7e0b",
-          "bytes": 10358501
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    04_สถิติการศึกษาของประเทศไทย_ปีการศึกษา2567สกศ.pdf",
           "ext": "pdf",
           "sha256": "f8b42a4810d0d598bd284e71187db2262d5df118b105e7480ae610af580b7e0b",
           "bytes": 10358501
@@ -8720,20 +8190,12 @@
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
       "sourceCorpora": [
-        "กฎหมายคุรุสภา",
-        "กฎหมายหลักการศึกษา"
+        "กฎหมายคุรุสภา"
       ],
       "sources": [
         {
           "corpus": "กฎหมายคุรุสภา",
           "path": "09_แผน_สถิติ_รายงาน/สถิติการศึกษาประจำปี 2567 - สำนักงานปลัดกระทรวงศึกษาธิการ.pdf",
-          "ext": "pdf",
-          "sha256": "255f430b2c43f828f41012a40a5963b5ba8cdd4012bb7716b881dd8933dcab5f",
-          "bytes": 2453475
-        },
-        {
-          "corpus": "กฎหมายหลักการศึกษา",
-          "path": "    04_สถิติการศึกษาของประเทศไทย_ปีการศึกษา2567.pdf",
           "ext": "pdf",
           "sha256": "255f430b2c43f828f41012a40a5963b5ba8cdd4012bb7716b881dd8933dcab5f",
           "bytes": 2453475

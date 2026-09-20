@@ -18,6 +18,7 @@ ALLOWED_STATUSES = {"unverified", "in_force", "amended", "repealed", "reference"
 ALLOWED_VERIFICATION = {"unverified", "partial", "reviewed"}
 ALLOWED_EVIDENCE = {"local_file", "local_reviewed", "official_online"}
 INTERNAL_MARKERS = ("ร่างต้นแบบ", "บันทึกตรวจสอบ", "แผนแม่บทการสร้างเว็บไซต์", "รายงานความเห็นทางกฎหมาย")
+SENSITIVE_MARKERS = ("สัญญาจ้างรองเลขาธิการคุรุสภา", "ใบสมัครเข้ารับการสรรหา")
 
 
 def error(message: str) -> None:
@@ -64,6 +65,8 @@ def validate_catalog() -> None:
         label = f"{item.get('id')} {item.get('title')}"
         if any(marker in item.get("title", "") for marker in INTERNAL_MARKERS):
             error(f"{label}: ชื่อบ่งชี้ว่าเป็นร่าง/เอกสารภายใน")
+        if any(marker in item.get("title", "") for marker in SENSITIVE_MARKERS):
+            error(f"{label}: ชื่อบ่งชี้ว่าเป็นเอกสารที่มีข้อมูลส่วนบุคคล")
         if item.get("status") not in ALLOWED_STATUSES:
             error(f"{label}: status ไม่รู้จัก")
         if item.get("verificationStatus") not in ALLOWED_VERIFICATION:

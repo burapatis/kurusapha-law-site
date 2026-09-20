@@ -34,6 +34,42 @@ INTERNAL_MARKERS = (
     "(บันทึกตรวจสอบ)", "(สรุปฉบับจริง)", "(ร่างต้นแบบ)",
     "ทะเบียนอนุบัญญัติ", "รายงานความเห็นทางกฎหมาย", "แผนแม่บทการสร้างเว็บไซต์",
 )
+SENSITIVE_MARKERS = (
+    "สัญญาจ้างรองเลขาธิการคุรุสภา",
+    "ใบสมัครเข้ารับการสรรหาเพื่อแต่งตั้งให้ดำรงตำแหน่งเลขาธิการคุรุสภา",
+)
+# ไฟล์ข้อความเหล่านี้เป็น companion ของไฟล์หลักที่ซ้ำกับฉบับในคลังคุรุสภา
+# หลังเก็บไฟล์หลักไว้เพียงฉบับเดียว ต้องยังผูกข้อความกับรายการหลัก ไม่สร้างรายการ .txt แยก
+COMPANION_ALIASES = {
+    (
+        "education",
+        "คำสั่งหัวหน้า คสช. 17-2560 แก้ไขคำสั่งคุรุสภา.txt",
+    ): (
+        "kurusapha",
+        "06_คำสั่ง_มติ_หนังสือเวียน/คำสั่งหัวหน้า คสช. ที่ 17-2560 เรื่อง แก้ไขเพิ่มเติมคำสั่งหัวหน้า คสช. ที่ 7-2558.pdf",
+    ),
+    (
+        "education",
+        "พ.ร.บ. กองทุนเพื่อความเสมอภาคทางการศึกษา พ.ศ. 2561 ภาษาอังกฤษ.txt",
+    ): (
+        "kurusapha",
+        "01_รัฐธรรมนูญและพระราชบัญญัติ/พระราชบัญญัติกองทุนเพื่อความเสมอภาคทางการศึกษา พ.ศ. 2561 - ภาษาอังกฤษ.pdf",
+    ),
+    (
+        "education",
+        "พ.ร.บ. โรงเรียนเอกชน พ.ศ. 2550 ภาษาอังกฤษ.txt",
+    ): (
+        "kurusapha",
+        "01_รัฐธรรมนูญและพระราชบัญญัติ/พระราชบัญญัติโรงเรียนเอกชน พ.ศ. 2550 รวมแก้ไขฉบับที่ 2 พ.ศ. 2554 - ภาษาอังกฤษ.pdf",
+    ),
+    (
+        "education",
+        "แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579 ฉบับเต็ม.txt",
+    ): (
+        "kurusapha",
+        "09_แผน_สถิติ_รายงาน/แผนการศึกษาแห่งชาติ พ.ศ. 2560-2579.pdf",
+    ),
+}
 NO_PUBLIC_FULLTEXT_MARKERS = (
     "ตำราหลักกฎหมาย", "คำอธิบายรายมาตรา", "สื่อการสอน",
 )
@@ -189,6 +225,11 @@ def is_internal(name: str) -> bool:
     return any(marker in lower for marker in INTERNAL_MARKERS)
 
 
+def is_sensitive(name: str) -> bool:
+    """กันเอกสารที่ระบุว่ามีข้อมูลส่วนบุคคลออกจากข้อมูลสาธารณะเสมอ."""
+    return any(marker in name for marker in SENSITIVE_MARKERS)
+
+
 def allows_public_fulltext(title: str) -> bool:
     """กันงานอธิบาย/ตำราที่อาจมีลิขสิทธิ์ออกจากดัชนีข้อความสาธารณะ"""
     return not any(marker in title for marker in NO_PUBLIC_FULLTEXT_MARKERS)
@@ -218,6 +259,7 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
 
     records: list[dict] = []
     by_hash: dict[str, dict] = {}
+    by_location: dict[tuple[str, str], dict] = {}
     primary_by_title: dict[tuple[str, str], dict] = {}
     companion_text: dict[tuple[str, str], Path] = {}
     candidates: list[tuple[int, Path, Path, str, str]] = []
@@ -235,6 +277,8 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
                 continue
             ext = path.suffix.lower().lstrip(".")
             if ext not in ALLOWED_EXTENSIONS or path.name.lower().startswith(SKIP_PREFIXES):
+                continue
+            if is_sensitive(path.name):
                 continue
             if is_internal(path.name) and not include_internal:
                 continue
@@ -264,11 +308,23 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
         }
         title = clean_title(path)
         title_key = (slug, title.casefold())
+        alias_target = COMPANION_ALIASES.get((slug, relative))
+        if alias_target:
+            existing = by_location.get(alias_target)
+            if not existing:
+                raise RuntimeError(f"ไม่พบเอกสารหลักสำหรับ companion alias: {slug}:{relative}")
+            existing["sources"].append(source)
+            existing["sourceCorpora"] = sorted({s["corpus"] for s in existing["sources"]})
+            existing["hasText"] = existing["publicFulltext"]
+            by_hash[digest] = existing
+            by_location[(slug, relative)] = existing
+            continue
         # ลายนิ้วมือไฟล์ตรงกันมีน้ำหนักสูงกว่าการจับคู่จากชื่อไฟล์
         if digest in by_hash:
             existing = by_hash[digest]
             existing["sources"].append(source)
             existing["sourceCorpora"] = sorted({s["corpus"] for s in existing["sources"]})
+            by_location[(slug, relative)] = existing
             if ext in PRIMARY_EXTENSIONS:
                 primary_by_title.setdefault(title_key, existing)
             continue
@@ -284,6 +340,7 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
                 existing["textSource"] = existing.get("textSource") or "companion"
                 existing["_companionPath"] = str(path)
             by_hash[digest] = existing
+            by_location[(slug, relative)] = existing
             continue
 
         rid = record_id(slug, relative)
@@ -343,6 +400,7 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
             record["publicCopyUrl"] = public_copy.relative_to(SITE).as_posix()
         records.append(record)
         by_hash[digest] = record
+        by_location[(slug, relative)] = record
         if ext in PRIMARY_EXTENSIONS:
             primary_by_title.setdefault(title_key, record)
 
