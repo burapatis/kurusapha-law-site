@@ -92,6 +92,220 @@ CATEGORY_MAP = {
 # URL หน้ารวมมิใช่ลิงก์ต้นฉบับรายฉบับ จึงไม่บันทึกเป็น officialUrl
 VERIFIED_OVERRIDES = [
     (
+        "พระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+        {
+            "status": "amended",
+            "verificationStatus": "reviewed",
+            "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20",
+            "verifiedBy": "ตรวจทานสำเนาในคลังเทียบกับแหล่งทางการและคำสั่งที่เกี่ยวข้อง",
+            "effectiveDate": "2003-06-12",
+            "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ และผลของคำสั่งหัวหน้า คสช. ที่กระทบองค์ประกอบหรือการปฏิบัติหน้าที่ขององค์กร ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ยังเป็นกฎหมายแม่บทของคุรุสภา แต่การใช้บทเกี่ยวกับองค์ประกอบและการปฏิบัติหน้าที่ของคณะกรรมการมีคำสั่งหัวหน้า คสช. ที่ 7/2558 ซึ่งแก้ไขโดยที่ 17/2560 และคำสั่งที่ 11/2561 เข้ามากระทบ จึงต้องอ่านร่วมกัน",
+            "officialUrl": "https://elibrary.ksp.or.th/index.php?id=24016&lvl=notice_display",
+            "gazette": "เล่ม 120 ตอนที่ 52 ก วันที่ 11 มิถุนายน 2546 หน้า 1–30",
+            "reviewSources": [
+                {"label": "สำเนาพระราชบัญญัติในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "หอสมุดคุรุสภา: พระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546", "url": "https://elibrary.ksp.or.th/index.php?id=24016&lvl=notice_display", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "affected_by", "targetId": "doc-bacc25b6", "label": "ถูกกระทบโดยคำสั่งหัวหน้า คสช. ที่ 7/2558", "basis": "กำหนดการปฏิบัติหน้าที่แทนคณะกรรมการบางชุด"},
+                {"type": "affected_by", "targetId": "doc-b84ef957", "label": "คำสั่งที่ 7/2558 แก้ไขโดยคำสั่งหัวหน้า คสช. ที่ 17/2560", "basis": "ต้องอ่านผลของคำสั่งฉบับเดิมร่วมกับฉบับแก้ไข"},
+                {"type": "affected_by", "targetId": "doc-6ad39c57", "label": "ถูกกระทบโดยคำสั่งหัวหน้า คสช. ที่ 11/2561", "basis": "แก้ไของค์ประกอบคณะกรรมการมาตรฐานวิชาชีพ"},
+            ],
+            "note": "ป้าย “มีแก้ไข” ในรายการนี้ครอบคลุมทั้งการแก้ตัวบทและบทพิเศษที่กระทบการใช้กฎหมายแม่บท ไม่ได้หมายความว่าคำสั่งทุกฉบับเป็นพระราชบัญญัติแก้ไขเพิ่มเติม",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ ฉบับที่ 6 พ.ศ. 2567",
+        {
+            "status": "in_force", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับประกาศของคุรุสภา",
+            "effectiveDate": "2025-01-10",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ และข้อที่แก้ไขในสายข้อบังคับมาตรฐานวิชาชีพถึงฉบับที่ 6 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "มีผลใช้บังคับตั้งแต่วันประกาศในราชกิจจานุเบกษา และแก้ข้อ 5 ข้อ 7 (ข) และข้อ 9 (ข) ของข้อบังคับฉบับฐาน โดยไม่พบบทเลิกหรือบทแทนที่ภายหลังในสายที่ตรวจ",
+            "officialUrl": "https://www.ksp.or.th/2025/01/15/53816/",
+            "gazette": "เล่ม 142 ตอนพิเศษ 7 ง วันที่ 10 มกราคม 2568 หน้า 27–29",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "คุรุสภา: ข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 6) พ.ศ. 2567", "url": "https://www.ksp.or.th/2025/01/15/53816/", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-dfe7f088", "label": "แก้ไขข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "basis": "แก้ข้อ 5 ข้อ 7 (ข) และข้อ 9 (ข)"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ ฉบับที่ 5 พ.ศ. 2563",
+        {
+            "status": "in_force", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับหอสมุดคุรุสภา",
+            "effectiveDate": "2020-11-16",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ บทแทนที่ข้อ 17 และฉบับภายหลังในสายมาตรฐานวิชาชีพถึงฉบับที่ 6 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ใช้บังคับตั้งแต่วันประกาศและแทนที่ข้อ 17 ซึ่งแก้ไขโดยฉบับที่ 3 พ.ศ. 2561 โดยไม่พบบทภายหลังที่แทนที่ข้อ 17 ในสายที่ตรวจ",
+            "officialUrl": "https://elibrary.ksp.or.th/index.php?id=24048&lvl=notice_display",
+            "gazette": "เล่ม 137 ตอนพิเศษ 270 ง วันที่ 16 พฤศจิกายน 2563",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "หอสมุดคุรุสภา: ข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 5) พ.ศ. 2563", "url": "https://elibrary.ksp.or.th/index.php?id=24048&lvl=notice_display", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-dfe7f088", "label": "แก้ไขข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "basis": "แทนที่ข้อ 17"},
+                {"type": "supersedes", "targetId": "doc-c80926ac", "label": "แทนที่ผลของฉบับที่ 3 พ.ศ. 2561", "basis": "ฉบับที่ 5 ระบุให้ยกเลิกความในข้อ 17 ซึ่งแก้ไขโดยฉบับที่ 3 และใช้ข้อความใหม่"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ ฉบับที่ 4 พ.ศ. 2562",
+        {
+            "status": "in_force", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับสำเนาทางการของกระทรวงศึกษาธิการ",
+            "effectiveDate": "2019-03-20",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ ข้อที่แก้ไข และฉบับภายหลังในสายมาตรฐานวิชาชีพถึงฉบับที่ 6 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ใช้บังคับตั้งแต่วันประกาศ แก้บทนิยามในข้อ 4 และข้อ 6 ข้อ 10 ข้อ 11 โดยฉบับที่ 6 แก้คนละข้อและไม่พบบทเลิกฉบับนี้ในสายที่ตรวจ",
+            "officialUrl": "https://www.moe.go.th/backend/wp-content/uploads/2021/03/3.2.4%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%8842562.pdf",
+            "gazette": "เล่ม 136 ตอนพิเศษ 68 ง วันที่ 20 มีนาคม 2562",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "กระทรวงศึกษาธิการ: ข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 4) พ.ศ. 2562", "url": "https://www.moe.go.th/backend/wp-content/uploads/2021/03/3.2.4%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%8842562.pdf", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-dfe7f088", "label": "แก้ไขข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "basis": "แก้บทนิยามในข้อ 4 และข้อ 6 ข้อ 10 ข้อ 11"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ ฉบับที่ 3 พ.ศ. 2561",
+        {
+            "status": "superseded", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังและสายข้อบังคับฉบับแก้ไข",
+            "effectiveDate": "2018-11-26",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ บทแก้ข้อ 17 และบทแทนที่โดยฉบับที่ 5 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ฉบับนี้เคยแทนที่ข้อ 17 ที่แก้โดยฉบับที่ 2 แต่ต่อมาข้อ 17 ตามฉบับนี้ถูกฉบับที่ 5 พ.ศ. 2563 แทนที่โดยชัดแจ้ง",
+            "gazette": "เล่ม 135 ตอนพิเศษ 299 ง วันที่ 26 พฤศจิกายน 2561",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "หน้ารวมกฎหมายคุรุสภา (ใช้ยืนยันการเผยแพร่รายชื่อฉบับ)", "url": "https://www.ksp.or.th/laws/", "type": "official_index", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-dfe7f088", "label": "แก้ไขข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "basis": "แทนที่ข้อ 17"},
+                {"type": "supersedes", "targetId": "doc-f58d7672", "label": "แทนที่ผลของฉบับที่ 2 พ.ศ. 2561", "basis": "ยกเลิกความในข้อ 17 ซึ่งแก้ไขโดยฉบับที่ 2 และใช้ข้อความใหม่"},
+                {"type": "superseded_by", "targetId": "doc-cf3a1f2e", "label": "ถูกแทนที่โดยฉบับที่ 5 พ.ศ. 2563", "basis": "ฉบับที่ 5 ยกเลิกความในข้อ 17 ซึ่งแก้ไขโดยฉบับที่ 3 และใช้ข้อความใหม่"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+            "note": "“ถูกแทนที่แล้ว” หมายถึงผลของข้อความแก้ไขในฉบับนี้ถูกแทนที่ ไม่ใช่การยกเลิกข้อบังคับฉบับฐานทั้งฉบับ",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ ฉบับที่ 2 พ.ศ. 2561",
+        {
+            "status": "superseded", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับราชกิจจานุเบกษาและสายข้อบังคับฉบับแก้ไข",
+            "effectiveDate": "2018-10-04",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ บทแก้ข้อ 17 และบทแทนที่โดยฉบับที่ 3 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ฉบับนี้แก้ข้อ 17 ของฉบับฐาน แต่ข้อความดังกล่าวถูกฉบับที่ 3 พ.ศ. 2561 แทนที่โดยชัดแจ้ง",
+            "officialUrl": "https://ratchakitcha.soc.go.th/documents/17060908.pdf",
+            "gazette": "เล่ม 135 ตอนพิเศษ 247 ง วันที่ 4 ตุลาคม 2561",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "ราชกิจจานุเบกษา: ข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 2) พ.ศ. 2561", "url": "https://ratchakitcha.soc.go.th/documents/17060908.pdf", "type": "official_gazette", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-dfe7f088", "label": "แก้ไขข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "basis": "แทนที่ข้อ 17"},
+                {"type": "superseded_by", "targetId": "doc-c80926ac", "label": "ถูกแทนที่โดยฉบับที่ 3 พ.ศ. 2561", "basis": "ฉบับที่ 3 ยกเลิกความในข้อ 17 ซึ่งแก้ไขโดยฉบับที่ 2 และใช้ข้อความใหม่"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+            "note": "“ถูกแทนที่แล้ว” หมายถึงผลของข้อความแก้ไขในฉบับนี้ถูกแทนที่ ไม่ใช่การยกเลิกข้อบังคับฉบับฐานทั้งฉบับ",
+        },
+    ),
+    (
+        "มาตรฐานวิชาชีพ พ.ศ. 2556",
+        {
+            "status": "amended", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับราชกิจจานุเบกษาและฉบับแก้ไขที่ 2–6",
+            "effectiveDate": "2013-10-04",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ และสายการแก้ไขตั้งแต่ฉบับที่ 2 ถึงฉบับที่ 6 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "เป็นข้อบังคับฉบับฐานที่ยังต้องใช้ประกอบ แต่ถูกแก้ไขหลายครั้งโดยฉบับที่ 2–6 และต้องอ่านฉบับที่ยังมีผลร่วมกัน",
+            "officialUrl": "https://ratchakitcha.soc.go.th/documents/1986082.pdf",
+            "gazette": "เล่ม 130 ตอนพิเศษ 130 ง วันที่ 4 ตุลาคม 2556",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "ราชกิจจานุเบกษา: ข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556", "url": "https://ratchakitcha.soc.go.th/documents/1986082.pdf", "type": "official_gazette", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amended_by", "targetId": "doc-f58d7672", "label": "แก้ไขโดยฉบับที่ 2 พ.ศ. 2561", "basis": "แก้ข้อ 17; ผลถูกแทนที่ภายหลัง"},
+                {"type": "amended_by", "targetId": "doc-c80926ac", "label": "แก้ไขโดยฉบับที่ 3 พ.ศ. 2561", "basis": "แก้ข้อ 17; ผลถูกแทนที่ภายหลัง"},
+                {"type": "amended_by", "targetId": "doc-6d2f5d79", "label": "แก้ไขโดยฉบับที่ 4 พ.ศ. 2562", "basis": "แก้บทนิยามและข้อ 6 ข้อ 10 ข้อ 11"},
+                {"type": "amended_by", "targetId": "doc-cf3a1f2e", "label": "แก้ไขโดยฉบับที่ 5 พ.ศ. 2563", "basis": "แก้ข้อ 17"},
+                {"type": "amended_by", "targetId": "doc-8f55babb", "label": "แก้ไขโดยฉบับที่ 6 พ.ศ. 2567", "basis": "แก้ข้อ 5 ข้อ 7 (ข) และข้อ 9 (ข)"},
+            ],
+            "reformCode": "ก-1", "reformStatus": "amend",
+        },
+    ),
+    (
+        "จรรยาบรรณของวิชาชีพ พ.ศ. 2556",
+        {
+            "status": "in_force", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับหอสมุดคุรุสภาและหน้ารวมกฎหมายปัจจุบัน",
+            "effectiveDate": "2013-10-04",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ บทเลิกฉบับเดิม และการอ้างใช้ในกฎหมาย/ข้อมูลคุรุสภาภายหลัง ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ใช้บังคับตั้งแต่วันประกาศในราชกิจจานุเบกษา ไม่พบบทเลิกฉบับนี้ในการตรวจสายกฎหมาย และคุรุสภายังเผยแพร่เป็นกฎหมายอ้างอิงปัจจุบัน",
+            "officialUrl": "https://elibrary.ksp.or.th/index.php?id=24053&lvl=notice_display",
+            "gazette": "เล่ม 130 ตอนพิเศษ 130 ง วันที่ 4 ตุลาคม 2556",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "หอสมุดคุรุสภา: ข้อบังคับว่าด้วยจรรยาบรรณของวิชาชีพ พ.ศ. 2556", "url": "https://elibrary.ksp.or.th/index.php?id=24053&lvl=notice_display", "type": "official_agency", "accessedAt": "2569-09-20"},
+                {"label": "หน้ารวมกฎหมายคุรุสภา", "url": "https://www.ksp.or.th/laws/", "type": "official_index", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [],
+            "reformCode": "ก-2", "reformStatus": "keep",
+            "note": "ตรวจยืนยันสถานะของข้อบังคับสารบัญญัติฉบับนี้แยกจากข้อบังคับว่าด้วยกระบวนพิจารณาการประพฤติผิดจรรยาบรรณ",
+        },
+    ),
+    (
+        "ใบอนุญาตประกอบวิชาชีพ ฉบับที่ 2 พ.ศ. 2567",
+        {
+            "status": "in_force", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับประกาศของคุรุสภา",
+            "effectiveDate": "2024-03-14",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ และข้อที่แก้ไขในสายข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "มีผลใช้บังคับในวันถัดจากวันประกาศในราชกิจจานุเบกษา และไม่พบบทเลิกหรือบทแทนที่ภายหลังในสายที่ตรวจ",
+            "officialUrl": "https://www.ksp.or.th/2024/03/14/49940/",
+            "gazette": "เล่ม 141 ตอนพิเศษ 73 ง วันที่ 13 มีนาคม 2567",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "คุรุสภา: ข้อบังคับใบอนุญาตประกอบวิชาชีพ (ฉบับที่ 2) พ.ศ. 2567", "url": "https://www.ksp.or.th/2024/03/14/49940/", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amends", "targetId": "doc-616a1a43", "label": "แก้ไขข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565", "basis": "ต้องอ่านร่วมกับฉบับฐาน"},
+            ],
+            "reformCode": "ก-4", "reformStatus": "amend",
+        },
+    ),
+    (
+        "ใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565",
+        {
+            "status": "amended", "verificationStatus": "reviewed", "verificationConfidence": "high",
+            "verifiedAt": "2569-09-20", "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับประกาศของคุรุสภาและฉบับที่ 2 พ.ศ. 2567",
+            "effectiveDate": "2023-03-15",
+            "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ และสายการแก้ไขโดยฉบับที่ 2 พ.ศ. 2567 ณ วันที่ 20 กันยายน 2569",
+            "statusBasis": "ฉบับฐานมีผลเมื่อพ้น 90 วันนับแต่ประกาศในราชกิจจานุเบกษา และถูกแก้ไขโดยฉบับที่ 2 พ.ศ. 2567 จึงต้องอ่านร่วมกัน",
+            "officialUrl": "https://www.ksp.or.th/2023/01/31/42355/",
+            "gazette": "เล่ม 139 ตอนพิเศษ 292 ง วันที่ 15 ธันวาคม 2565",
+            "reviewSources": [
+                {"label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา", "type": "local_original", "accessedAt": "2569-09-20"},
+                {"label": "คุรุสภา: ข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565", "url": "https://www.ksp.or.th/2023/01/31/42355/", "type": "official_agency", "accessedAt": "2569-09-20"},
+            ],
+            "legalRelations": [
+                {"type": "amended_by", "targetId": "doc-993bc739", "label": "แก้ไขโดยฉบับที่ 2 พ.ศ. 2567", "basis": "ต้องอ่านฉบับฐานร่วมกับฉบับแก้ไข"},
+            ],
+            "reformCode": "ก-4", "reformStatus": "amend",
+        },
+    ),
+    (
         "การพิจารณาการประพฤติผิดจรรยาบรรณของวิชาชีพ พ.ศ. 2568",
         {
             "status": "in_force",
@@ -380,6 +594,10 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
             "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
             "officialUrl": None,
             "gazette": None,
+            "effectiveDate": None,
+            "reviewScope": None,
+            "reviewSources": [],
+            "legalRelations": [],
             "reformStatus": None,
             "reformCode": None,
             "note": None,
@@ -391,6 +609,22 @@ def discover(roots: list[Path], include_internal: bool) -> list[dict]:
             "_companionPath": str(companion) if companion else None,
         }
         enrich(record)
+        if record.get("verificationStatus") == "reviewed":
+            if not record.get("reviewScope"):
+                record["reviewScope"] = "ตรวจสถานะตามเหตุผลและขอบเขตที่บันทึกไว้ในรายการ ณ วันที่ตรวจ"
+            if not record.get("reviewSources"):
+                record["reviewSources"] = [{
+                    "label": "สำเนาตัวบทในคลังกฎหมายคุรุสภา",
+                    "type": "local_original",
+                    "accessedAt": record.get("verifiedAt"),
+                }]
+                if record.get("officialUrl"):
+                    record["reviewSources"].append({
+                        "label": "แหล่งทางการของฉบับนี้",
+                        "url": record["officialUrl"],
+                        "type": "official_agency",
+                        "accessedAt": record.get("verifiedAt"),
+                    })
         if record.get("officialUrl"):
             record["evidenceLevel"] = "official_online"
         elif record.get("verificationStatus") == "reviewed":
@@ -432,7 +666,7 @@ def write_outputs(records: list[dict], roots: list[Path]) -> None:
     fulltext = sum(bool(r["hasText"]) for r in records)
     meta = {
         "generated": date.today().isoformat(),
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "corpora": [r.name for r in roots],
         "count": len(records),
         "fulltextDocs": fulltext,

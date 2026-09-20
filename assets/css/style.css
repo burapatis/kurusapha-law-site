@@ -90,6 +90,7 @@ h2, h3 { color: var(--navy); line-height: 1.35; }
 .badge { display: inline-flex; align-items: center; min-height: 26px; padding: 2px 9px; border-radius: 7px; font-size: 12.5px; font-weight: 700; white-space: nowrap; }
 .b-keep, .b-inforce { color: #214f31; background: #dff1e3; }
 .b-amend, .b-amended { color: #8a4308; background: #faead5; }
+.b-superseded { color: #5f3b72; background: #eee4f3; }
 .b-repeal, .b-repealed { color: #812828; background: #f5dede; }
 .b-verify, .b-unverified { color: #4e5966; background: #e8edf2; }
 .b-done { color: #145b60; background: #dceff0; }
@@ -139,6 +140,11 @@ table.tbl tr:nth-child(even) td { background: #fafbfd; }
 .source-list { overflow-wrap: anywhere; }
 .source-list li { margin-bottom: 8px; }
 .source-list code { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
+.source-kind { color: var(--muted); font-size: 14px; }
+.relation-list { margin-bottom: 0; }
+.relation-list li { margin-bottom: 11px; }
+.relation-list li:last-child { margin-bottom: 0; }
+.relation-list p { margin: 2px 0 0; color: var(--muted); font-size: 14.5px; }
 .action-row { display: flex; flex-wrap: wrap; gap: 9px; margin: 13px 0 8px; }
 .citation-box { width: 100%; min-height: 128px; margin: 10px 0 13px; padding: 13px 15px; border: 1px solid var(--line); border-left: 4px solid var(--navy-2); border-radius: 8px; color: var(--ink); background: #f7f9fc; font-family: inherit; font-size: 15px; line-height: 1.6; resize: vertical; overflow-wrap: anywhere; }
 .backlink { display: inline-block; margin: 4px 0 12px; color: var(--muted); }

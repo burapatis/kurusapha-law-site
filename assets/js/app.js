@@ -14,6 +14,7 @@ const RSMAP = {
 };
 const STMAP = {
   in_force: ["ใช้บังคับ (ตรวจแล้ว)", "b-inforce"], amended: ["มีแก้ไข (ตรวจแล้ว)", "b-amended"],
+  superseded: ["ถูกแทนที่แล้ว (ตรวจแล้ว)", "b-superseded"],
   repealed: ["ยกเลิกแล้ว (ตรวจแล้ว)", "b-repealed"], reference: ["เอกสารอ้างอิง", "b-reference"],
   draft: ["ร่าง", "b-draft"], unverified: ["ยังไม่ตรวจยืนยัน", "b-unverified"]
 };
@@ -25,6 +26,10 @@ const EVIDENCEMAP = {
   official_online: ["พบแหล่งทางการออนไลน์", "b-inforce"],
   local_reviewed: ["ตรวจจากสำเนาในคลัง", "b-amended"],
   local_file: ["มีสำเนาในคลัง", "b-reference"]
+};
+const REVIEWSOURCEMAP = {
+  local_original: "สำเนาในคลัง", official_gazette: "ราชกิจจานุเบกษา",
+  official_agency: "หน่วยงานทางการ", official_index: "หน้ารวมของหน่วยงานทางการ"
 };
 const SRCLABEL = {
   pdf: "สกัดอัตโนมัติจาก PDF", ocr: "OCR อัตโนมัติ", docx: "สกัดจาก DOCX",
@@ -76,12 +81,24 @@ function stat(number, label, note) {
     note ? el("span", {class: "s"}, note) : null);
 }
 function empty(message) { return el("p", {class: "empty-state"}, message); }
+function thaiDate(isoDate) {
+  if (!isoDate || !/^\d{4}-\d{2}-\d{2}$/.test(isoDate)) return "ยังไม่มีข้อมูล";
+  const [year, month, day] = isoDate.split("-").map(Number);
+  return new Intl.DateTimeFormat("th-TH", {day: "numeric", month: "long", year: "numeric", timeZone: "UTC"})
+    .format(new Date(Date.UTC(year, month - 1, day)));
+}
+function thaiRecordedDate(value) {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return value || "ยังไม่มีข้อมูล";
+  let [year, month, day] = value.split("-").map(Number);
+  if (year >= 2400) year -= 543;
+  return thaiDate(`${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`);
+}
 function buildCitation(item) {
   const source = (item.sources || [])[0] || {corpus: item.sourceCorpus, path: item.file, sha256: ""};
   const parts = [item.title];
   if (item.gazette) parts.push(`ราชกิจจานุเบกษา ${item.gazette}`);
   parts.push(`สำเนาในคลัง “${source.corpus || "ไม่ระบุ"}/${source.path || item.file}”`);
-  if (item.verifiedAt) parts.push(`ตรวจไฟล์เมื่อ ${item.verifiedAt}`);
+  if (item.verifiedAt) parts.push(`ตรวจไฟล์เมื่อ ${thaiRecordedDate(item.verifiedAt)}`);
   if (source.sha256) parts.push(`SHA-256: ${source.sha256}`);
   if (!item.officialUrl) parts.push("ยังไม่พบลิงก์ต้นฉบับทางการออนไลน์");
   return `${parts.join(", ")}.`;
@@ -140,7 +157,7 @@ function chrome() {
     main.setAttribute("tabindex", "-1");
   }
   document.body.append(el("footer", {class: "site"}, el("div", {class: "wrap"},
-    el("p", {}, "ฐานข้อมูลเพื่อการศึกษาและสนับสนุนการทบทวนกฎหมาย • รุ่น 2.0"),
+    el("p", {}, "ฐานข้อมูลเพื่อการศึกษาและสนับสนุนการทบทวนกฎหมาย • รุ่น 2.1"),
     el("p", {}, "ข้อมูลสถานะที่ยังไม่ตรวจยืนยันไม่ควรใช้แทนต้นฉบับทางการหรือความเห็นของผู้มีอำนาจ"),
     el("p", {}, el("a", {href: "methodology.html"}, "วิธีจัดทำและข้อจำกัด"), " · ",
       el("a", {href: GAZETTE, target: "_blank", rel: "noopener"}, "ราชกิจจานุเบกษา ↗")))));
@@ -160,7 +177,7 @@ async function initDashboard() {
     getJSON("data/proposals.json").catch(() => ({groups: []}))
   ]);
   const items = catalog.items || [];
-  const reviewedActive = items.filter(item => item.status === "in_force" && item.verificationStatus === "reviewed").length;
+  const reviewed = items.filter(item => item.verificationStatus === "reviewed").length;
   const unverified = items.filter(item => item.verificationStatus !== "reviewed").length;
   const fulltext = catalog.meta.fulltextDocs || items.filter(item => item.hasText).length;
   $("#app").append(
@@ -168,7 +185,7 @@ async function initDashboard() {
       "ระบบไม่อนุมานว่าเอกสารยังใช้บังคับจากชื่อไฟล์ รายการที่ไม่มีหลักฐานยืนยันจะแสดงว่า “ยังไม่ตรวจยืนยัน”"),
     el("div", {class: "grid g4"},
       stat(items.length, "รายการหลังรวมไฟล์ซ้ำ", "จากคลังกฎหมาย 3 ชุด"),
-      stat(reviewedActive, "ใช้บังคับที่ตรวจแล้ว", "นับเฉพาะรายการมีหลักฐาน"),
+      stat(reviewed, "ตรวจทานสถานะแล้ว", "มีขอบเขตและหลักฐานกำกับ"),
       stat(unverified, "รอตรวจยืนยัน", "ต้องเทียบต้นฉบับและฉบับแก้ไข"),
       stat(fulltext, "ค้นเนื้อความได้", "ข้อความสกัดอาจคลาดเคลื่อน"))
   );
@@ -280,7 +297,10 @@ function renderLibrary() {
     if (type && item.type !== type) return;
     if (status && item.status !== status) return;
     if (evidence && item.evidenceLevel !== evidence) return;
-    const haystack = [item.title, item.issuer, item.note, item.year, item.reformCode, item.sourceCorpus].join(" ").toLowerCase();
+    const relationText = (item.legalRelations || []).flatMap(relation => [relation.label, relation.basis]);
+    const reviewSourceText = (item.reviewSources || []).map(source => source.label);
+    const haystack = [item.title, item.issuer, item.note, item.year, item.reformCode, item.sourceCorpus,
+      item.statusBasis, item.reviewScope, ...relationText, ...reviewSourceText].join(" ").toLowerCase();
     let found = tokens.every(token => haystack.includes(token));
     let sample = null;
     if (!found && useFulltext && FTMAP[item.id]) {
@@ -322,7 +342,9 @@ async function initInstrument() {
     ["การตรวจยืนยัน", badge(VERIFYMAP, item.verificationStatus)],
     ["หลักฐานที่มี", badge(EVIDENCEMAP, item.evidenceLevel || "local_file")],
     ["เหตุผลของสถานะ", item.statusBasis || "ยังไม่มีข้อมูล"],
-    ["ตรวจเมื่อ/โดย", [item.verifiedAt, item.verifiedBy].filter(Boolean).join(" • ") || "ยังไม่ตรวจยืนยัน"],
+    ["วันเริ่มใช้บังคับ", thaiDate(item.effectiveDate)],
+    ["ขอบเขตที่ตรวจ", item.reviewScope || "ยังไม่ได้กำหนดขอบเขตการตรวจ"],
+    ["ตรวจเมื่อ/โดย", [item.verifiedAt ? thaiRecordedDate(item.verifiedAt) : null, item.verifiedBy].filter(Boolean).join(" • ") || "ยังไม่ตรวจยืนยัน"],
     ["ประเภท", item.type], ["หมวด", item.category], ["ผู้ออก/ผู้ตรา", item.issuer || "ไม่ระบุ"],
     ["ปี (พ.ศ.)", item.year || "ไม่ระบุ"], ["ราชกิจจานุเบกษา", item.gazette || "ยังไม่มีข้อมูลอ้างอิง"],
     ["สถานะข้อเสนอ", item.reformStatus ? `${RSMAP[item.reformStatus][0]}${item.reformCode ? ` (${item.reformCode})` : ""}` : "ไม่มีข้อเสนอผูกกับรายการนี้"],
@@ -336,6 +358,30 @@ async function initInstrument() {
       el("p", {}, "ควรตรวจต้นฉบับราชกิจจานุเบกษา กฎหมายแก้ไขเพิ่มเติม บทเฉพาะกาล และกฎหมายที่ออกภายหลังก่อนนำไปใช้")));
   }
   if (item.note) $("#app").append(el("div", {class: "callout teal"}, el("h2", {}, "หมายเหตุการตรวจ"), el("p", {}, item.note)));
+
+  if ((item.legalRelations || []).length) {
+    const relations = el("section", {class: "card section-gap"}, el("h2", {}, "สายสัมพันธ์ทางกฎหมาย"),
+      el("p", {class: "fine-print"}, "แสดงความสัมพันธ์ที่ตรวจพบในขอบเขตของรายการนี้ เพื่อช่วยอ่านฉบับฐานและฉบับแก้ไขร่วมกัน"));
+    relations.append(el("ul", {class: "relation-list"}, item.legalRelations.map(relation => {
+      const target = (catalog.items || []).find(candidate => candidate.id === relation.targetId);
+      const heading = target
+        ? el("a", {href: `instrument.html?id=${encodeURIComponent(target.id)}`}, relation.label)
+        : el("strong", {}, relation.label);
+      return el("li", {}, heading, el("p", {}, relation.basis));
+    })));
+    $("#app").append(relations);
+  }
+
+  if ((item.reviewSources || []).length) {
+    const reviewCard = el("section", {class: "card section-gap"}, el("h2", {}, "หลักฐานที่ใช้ตรวจสถานะ"));
+    reviewCard.append(el("ul", {class: "source-list"}, item.reviewSources.map(source => el("li", {},
+      source.url
+        ? el("a", {href: source.url, target: "_blank", rel: "noopener"}, source.label, " ↗")
+        : el("strong", {}, source.label),
+      el("span", {class: "source-kind"}, ` — ${REVIEWSOURCEMAP[source.type] || source.type || "ไม่ระบุประเภท"}${source.accessedAt ? ` • ตรวจเมื่อ ${thaiRecordedDate(source.accessedAt)}` : ""}`)
+    ))));
+    $("#app").append(reviewCard);
+  }
 
   const sourceCard = el("section", {class: "card section-gap"}, el("h2", {}, "สำเนาในคลังและแหล่งทางการ"));
   const sources = item.sources || [{corpus: item.sourceCorpus, path: item.file, ext: item.ext}];

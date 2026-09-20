@@ -7,6 +7,7 @@ import json
 import re
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 
@@ -14,9 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ERRORS: list[str] = []
 WARNINGS: list[str] = []
-ALLOWED_STATUSES = {"unverified", "in_force", "amended", "repealed", "reference", "draft"}
+ALLOWED_STATUSES = {"unverified", "in_force", "amended", "superseded", "repealed", "reference", "draft"}
 ALLOWED_VERIFICATION = {"unverified", "partial", "reviewed"}
 ALLOWED_EVIDENCE = {"local_file", "local_reviewed", "official_online"}
+ALLOWED_REVIEW_SOURCE_TYPES = {"local_original", "official_gazette", "official_agency", "official_index"}
+ALLOWED_RELATION_TYPES = {"amends", "amended_by", "supersedes", "superseded_by", "affected_by"}
 INTERNAL_MARKERS = ("ร่างต้นแบบ", "บันทึกตรวจสอบ", "แผนแม่บทการสร้างเว็บไซต์", "รายงานความเห็นทางกฎหมาย")
 SENSITIVE_MARKERS = ("สัญญาจ้างรองเลขาธิการคุรุสภา", "ใบสมัครเข้ารับการสรรหา")
 
@@ -52,6 +55,7 @@ def validate_catalog() -> None:
         return
     items = catalog.get("items", [])
     ids = [item.get("id") for item in items]
+    catalog_ids = set(ids)
     duplicates = [key for key, count in Counter(ids).items() if count > 1]
     if duplicates:
         error(f"catalog.json: id ซ้ำ {duplicates}")
@@ -77,11 +81,39 @@ def validate_catalog() -> None:
             error(f"{label}: ไม่มีตัวบ่งชี้สำเนาในคลัง")
         if item.get("audience") != "public" or item.get("isDeliverable"):
             error(f"{label}: มีเอกสารภายในปะปนในแคตตาล็อกสาธารณะ")
-        if item.get("status") in {"in_force", "amended", "repealed"}:
+        if item.get("status") in {"in_force", "amended", "superseded", "repealed"}:
             if item.get("verificationStatus") != "reviewed":
                 error(f"{label}: สถานะทางกฎหมายที่ยืนยันแล้วต้องมี verificationStatus=reviewed")
             if not item.get("statusBasis") or not item.get("verifiedAt") or not item.get("verifiedBy"):
                 error(f"{label}: ขาดเหตุผล/วัน/ผู้ตรวจสถานะ")
+        effective_date = item.get("effectiveDate")
+        if effective_date:
+            try:
+                date.fromisoformat(effective_date)
+            except (TypeError, ValueError):
+                error(f"{label}: effectiveDate ต้องเป็นวันที่จริงรูปแบบ YYYY-MM-DD")
+        review_sources = item.get("reviewSources") or []
+        if item.get("verificationStatus") == "reviewed":
+            if not item.get("reviewScope"):
+                error(f"{label}: รายการที่ตรวจแล้วต้องระบุ reviewScope")
+            if not review_sources:
+                error(f"{label}: รายการที่ตรวจแล้วต้องมี reviewSources")
+        for review_source in review_sources:
+            if not review_source.get("label"):
+                error(f"{label}: reviewSources ขาด label")
+            if review_source.get("type") not in ALLOWED_REVIEW_SOURCE_TYPES:
+                error(f"{label}: reviewSources มี type ไม่รู้จัก")
+            review_url = review_source.get("url")
+            if review_url and not review_url.startswith("https://"):
+                error(f"{label}: URL หลักฐานตรวจต้องใช้ https://")
+        for relation in item.get("legalRelations") or []:
+            if relation.get("type") not in ALLOWED_RELATION_TYPES:
+                error(f"{label}: legalRelations มี type ไม่รู้จัก")
+            if not relation.get("label") or not relation.get("basis"):
+                error(f"{label}: legalRelations ขาด label หรือ basis")
+            target_id = relation.get("targetId")
+            if not target_id or target_id not in catalog_ids:
+                error(f"{label}: legalRelations อ้าง targetId ที่ไม่อยู่ใน catalog ({target_id})")
         sources = item.get("sources") or []
         if not sources:
             error(f"{label}: ไม่มี sources")
@@ -109,7 +141,6 @@ def validate_catalog() -> None:
         if not item.get("publicFulltext", True) and text_path.exists():
             error(f"{label}: ห้ามเผยแพร่ full text แต่ยังมีไฟล์ข้อความ")
 
-    catalog_ids = set(ids)
     search_ids = [item.get("id") for item in search.get("items", [])]
     if len(search_ids) != len(set(search_ids)):
         error("search-index.json: id ซ้ำ")
