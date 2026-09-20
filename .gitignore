@@ -1,2 +1,6 @@
 _ocr_in/
 .DS_Store
+work/
+tmp/
+*.log
+__pycache__/

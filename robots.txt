@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://burapatis.github.io/kurusapha-law-site/sitemap.xml

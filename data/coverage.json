@@ -1,8 +1,26 @@
 {
- "txt": 4,
- "pdf": 140,
- "docx": 19,
- "jpg": 4,
- "other": 1,
- "deliverable": 18
+  "generated": "2026-09-20",
+  "total": 189,
+  "byExtension": {
+    "docx": 1,
+    "jpg": 4,
+    "pdf": 180,
+    "txt": 4
+  },
+  "byCorpus": {
+    "กฎหมายคุรุสภา": 149,
+    "กฎหมายหลัก": 30,
+    "กฎหมายหลักการศึกษา": 40
+  },
+  "byStatus": {
+    "in_force": 1,
+    "repealed": 3,
+    "unverified": 185
+  },
+  "byVerification": {
+    "reviewed": 4,
+    "unverified": 185
+  },
+  "fulltextDocs": 175,
+  "deduplicatedCopies": 52
 }

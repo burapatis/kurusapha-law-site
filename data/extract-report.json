@@ -1,9 +1,15 @@
 {
- "good_pdf": 79,
- "good_txt": 1,
- "good_docx": 19,
- "need_ocr": 61,
- "skip_img": 4,
- "none": 3,
- "total": 171
+  "generated": "2026-09-20",
+  "total": 189,
+  "fulltextDocs": 175,
+  "withoutFulltext": 14,
+  "byTextSource": {
+    "companion": 30,
+    "docx": 1,
+    "none": 3,
+    "ocr": 61,
+    "pdf": 79,
+    "txt": 1
+  },
+  "note": "ข้อความสกัด/OCR ใช้ช่วยค้นหาเท่านั้น และไม่ใช้แทนต้นฉบับทางการ"
 }
