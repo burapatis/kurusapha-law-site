@@ -152,7 +152,7 @@ async function initInstrument(){
   head(i.title, i.type+(i.year?" • พ.ศ. "+i.year:""));
   const rows=[["ประเภท",i.type],["หมวด",i.category],["ผู้ออก/ผู้ตรา",i.issuer],["ปี (พ.ศ.)",i.year||"—"],
     ["ราชกิจจานุเบกษา",i.gazette||"—"],["สถานะ",(STMAP[i.status]||["—"])[0]],
-    ["สถานะปฏิรูป",i.reformStatus?(RSMAP[i.reformStatus][0]+(i.reformCode?" ("+i.reformCode+")"):""):"—"],
+    ["สถานะปฏิรูป",i.reformStatus?(RSMAP[i.reformStatus][0]+(i.reformCode?" ("+i.reformCode+")":"")):"—"],
     ["แหล่งข้อความ",SRCLABEL[i.textSource]||"—"]];
   const tbl=el("table",{class:"tbl"});rows.forEach(([k,v])=>tbl.append(el("tr",{},el("th",{style:"width:190px"},k),el("td",{},String(v)))));
   $("#app").append(el("div",{class:"card"},tbl));
