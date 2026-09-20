@@ -8,7 +8,7 @@
       "กฎหมายหลักการศึกษา"
     ],
     "count": 185,
-    "fulltextDocs": 174,
+    "fulltextDocs": 171,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,15 +40,15 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 171,
-      "in_force": 6,
-      "amended": 3,
+      "unverified": 167,
+      "in_force": 8,
+      "amended": 4,
       "repealed": 3,
-      "superseded": 2
+      "superseded": 3
     },
     "verificationCounts": {
-      "unverified": 171,
-      "reviewed": 14
+      "unverified": 167,
+      "reviewed": 18
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -2335,27 +2335,46 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "local_reviewed",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานภาพตัวบทครบทั้งฉบับจากสำเนาราชกิจจานุเบกษาในคลัง",
+      "statusBasis": "มีผลใช้บังคับในวันถัดจากวันประกาศในราชกิจจานุเบกษา แก้ข้อ 7 เพิ่มข้อ 7/1–7/3 และแทนที่ข้อ 9 ของฉบับ พ.ศ. 2549 โดยไม่พบบทเลิกภายหลังในสายที่ตรวจ",
       "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 6084
+      "gazette": "เล่ม 143 ตอนพิเศษ 93 ง วันที่ 8 เมษายน 2569 หน้า 28–30",
+      "effectiveDate": "2026-04-09",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ ข้อที่แก้ไข คุณสมบัติและวิธีสรรหาคณะอนุกรรมการ และบทเฉพาะกาล ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาฉบับที่ 2 พ.ศ. 2569 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-8a85f030",
+          "label": "แก้ไขข้อบังคับอุทธรณ์ พ.ศ. 2549",
+          "basis": "แทนที่ข้อ 7 และข้อ 9 พร้อมเพิ่มข้อ 7/1–7/3"
+        },
+        {
+          "type": "supersedes",
+          "targetId": "doc-a00d287f",
+          "label": "แทนที่หลักเกณฑ์การได้มาซึ่งอนุกรรมการ พ.ศ. 2553 ในสาระ",
+          "basis": "ข้อ 7 และข้อ 7/3 ใหม่กำหนดองค์ประกอบ คุณสมบัติ และกระบวนการสรรหาใหม่โดยตรง ซึ่งไม่สอดคล้องกับองค์ประกอบเดิมตามประกาศ พ.ศ. 2553"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ก-9",
+      "note": "ยังไม่พบลิงก์ตรงของฉบับนี้จากระบบค้นหาสาธารณะ จึงยืนยันจากภาพสำเนาราชกิจจานุเบกษาในคลังและระบุเลขเล่ม ตอน วันที่ และหน้าไว้ตรวจย้อนกลับ; งดเผยแพร่ข้อความ OCR เพราะอ่านเลขไทยคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-110ae2b2",
@@ -2389,27 +2408,64 @@
       "verificationStatus": "reviewed",
       "verificationConfidence": "high",
       "verifiedAt": "2569-09-20",
-      "verifiedBy": "ตรวจทานกับตัวบทที่เก็บในคลัง",
-      "statusBasis": "ข้อบังคับกำหนดวันใช้บังคับและมีข้อมูลประกาศในราชกิจจานุเบกษา",
+      "verifiedBy": "ตรวจทานภาพตัวบทในคลังและบทเลิกกฎหมายเดิม",
+      "statusBasis": "มีผลใช้บังคับในวันถัดจากวันประกาศ และยกเลิกข้อบังคับ พ.ศ. 2553 ฉบับที่ 2 พ.ศ. 2559 และฉบับที่ 3 พ.ศ. 2563 โดยชัดแจ้ง",
       "officialUrl": null,
-      "gazette": "เล่ม 142 ตอนพิเศษ 257 ง วันที่ 30 กรกฎาคม 2568",
-      "effectiveDate": null,
-      "reviewScope": "ตรวจสถานะตามเหตุผลและขอบเขตที่บันทึกไว้ในรายการ ณ วันที่ตรวจ",
+      "gazette": "เล่ม 142 ตอนพิเศษ 257 ง วันที่ 30 กรกฎาคม 2568 หน้า 22–45",
+      "effectiveDate": "2025-07-31",
+      "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ บทเลิกฉบับ พ.ศ. 2553 และฉบับแก้ไข รวมทั้งความสัมพันธ์กับจรรยาบรรณและการอุทธรณ์ ณ วันที่ 20 กันยายน 2569",
       "reviewSources": [
         {
-          "label": "สำเนาตัวบทในคลังกฎหมายคุรุสภา",
+          "label": "สำเนาราชกิจจานุเบกษา พ.ศ. 2568 ในคลังกฎหมายคุรุสภา",
           "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "คุรุสภา: มติเห็นชอบร่างและสาระสำคัญของการปรับปรุง",
+          "url": "https://www.ksp.or.th/2025/05/30/57373/",
+          "type": "official_agency",
           "accessedAt": "2569-09-20"
         }
       ],
-      "legalRelations": [],
+      "legalRelations": [
+        {
+          "type": "repeals",
+          "targetId": "doc-67da7463",
+          "label": "ยกเลิกข้อบังคับ พ.ศ. 2553",
+          "basis": "ข้อ 3 (1) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "repeals",
+          "targetId": "doc-21140482",
+          "label": "ยกเลิกฉบับที่ 2 พ.ศ. 2559",
+          "basis": "ข้อ 3 (2) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "repeals",
+          "targetId": "doc-a84da2e5",
+          "label": "ยกเลิกฉบับที่ 3 พ.ศ. 2563",
+          "basis": "ข้อ 3 (3) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-21622537",
+          "label": "อ่านร่วมกับข้อบังคับจรรยาบรรณ พ.ศ. 2556",
+          "basis": "จรรยาบรรณ พ.ศ. 2556 เป็นฐานสารบัญญัติ ส่วนฉบับนี้กำหนดกระบวนพิจารณา"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-8a85f030",
+          "label": "อ่านต่อเนื่องกับข้อบังคับอุทธรณ์ พ.ศ. 2549 และฉบับแก้ไข",
+          "basis": "กระบวนการอุทธรณ์ใช้ภายหลังคำวินิจฉัยตามข้อบังคับนี้"
+        }
+      ],
       "reformStatus": "done",
       "reformCode": "ก-3",
-      "note": "ตรวจยืนยันเฉพาะสถานะและบทเลิกกฎหมายเดิม ควรตรวจต้นฉบับราชกิจจานุเบกษาก่อนใช้อ้างอิงในคดีหรือคำวินิจฉัย",
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 73576
+      "note": "ตรวจยืนยันสถานะและโครงสร้างสายกฎหมายแล้ว แต่ข้อสรุปในคดีรายบุคคลยังต้องตรวจข้อเท็จจริง ขั้นตอน และกฎหมายวิธีปฏิบัติราชการทางปกครองประกอบ; งดเผยแพร่ข้อความ OCR เพราะอ่านตัวบทคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-5a3fabb7",
@@ -3047,7 +3103,14 @@
           "accessedAt": "2569-09-20"
         }
       ],
-      "legalRelations": [],
+      "legalRelations": [
+        {
+          "type": "repealed_by",
+          "targetId": "doc-110ae2b2",
+          "label": "ถูกยกเลิกโดยข้อบังคับ พ.ศ. 2568",
+          "basis": "ข้อ 3 (3) ของฉบับ พ.ศ. 2568"
+        }
+      ],
       "reformStatus": "repeal",
       "reformCode": "ก-3",
       "note": null,
@@ -3441,7 +3504,14 @@
           "accessedAt": "2569-09-20"
         }
       ],
-      "legalRelations": [],
+      "legalRelations": [
+        {
+          "type": "repealed_by",
+          "targetId": "doc-110ae2b2",
+          "label": "ถูกยกเลิกโดยข้อบังคับ พ.ศ. 2568",
+          "basis": "ข้อ 3 (2) ของฉบับ พ.ศ. 2568"
+        }
+      ],
       "reformStatus": "repeal",
       "reformCode": "ก-3",
       "note": null,
@@ -3507,7 +3577,20 @@
           "accessedAt": "2569-09-20"
         }
       ],
-      "legalRelations": [],
+      "legalRelations": [
+        {
+          "type": "read_with",
+          "targetId": "doc-4ad435b5",
+          "label": "อ่านร่วมกับแบบแผนพฤติกรรม พ.ศ. 2550",
+          "basis": "ข้อ 3 รับช่วงการอ้างอิงจากข้อบังคับเดิม และข้อ 6 กำหนดให้ประพฤติตามแบบแผนพฤติกรรมตามจรรยาบรรณ"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-110ae2b2",
+          "label": "ใช้เป็นฐานสารบัญญัติของกระบวนพิจารณา พ.ศ. 2568",
+          "basis": "ข้อบังคับ พ.ศ. 2568 กำหนดกระบวนการพิจารณาการฝ่าฝืนจรรยาบรรณตามฉบับนี้"
+        }
+      ],
       "reformStatus": "keep",
       "reformCode": "ก-2",
       "note": "ตรวจยืนยันสถานะของข้อบังคับสารบัญญัติฉบับนี้แยกจากข้อบังคับว่าด้วยกระบวนพิจารณาการประพฤติผิดจรรยาบรรณ",
@@ -3658,7 +3741,14 @@
           "accessedAt": "2569-09-20"
         }
       ],
-      "legalRelations": [],
+      "legalRelations": [
+        {
+          "type": "repealed_by",
+          "targetId": "doc-110ae2b2",
+          "label": "ถูกยกเลิกโดยข้อบังคับ พ.ศ. 2568",
+          "basis": "ข้อ 3 (1) ของฉบับ พ.ศ. 2568"
+        }
+      ],
       "reformStatus": "repeal",
       "reformCode": "ก-3",
       "note": null,
@@ -3789,23 +3879,48 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับหอสมุดคุรุสภาและข้อบังคับจรรยาบรรณ พ.ศ. 2556",
+      "statusBasis": "ใช้บังคับตั้งแต่วันประกาศ ไม่พบบทเลิกฉบับนี้ และข้อ 3 กับข้อ 6 ของข้อบังคับจรรยาบรรณ พ.ศ. 2556 รับช่วงการอ้างอิงและกำหนดให้ผู้ประกอบวิชาชีพประพฤติตามแบบแผนพฤติกรรม",
+      "officialUrl": "https://elibrary.ksp.or.th/index.php?id=24057&lvl=notice_display",
+      "gazette": "เล่ม 124 ตอนพิเศษ 51 ง วันที่ 27 เมษายน 2550 หน้า 37–56",
+      "effectiveDate": "2007-04-27",
+      "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ ขอบเขตแบบแผนพฤติกรรม บทรับช่วงการอ้างอิงใน พ.ศ. 2556 และรายการกฎหมายปัจจุบันของคุรุสภา ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: ข้อบังคับว่าด้วยแบบแผนพฤติกรรม พ.ศ. 2550",
+          "url": "https://elibrary.ksp.or.th/index.php?id=24057&lvl=notice_display",
+          "type": "official_agency",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "หน้ารวมกฎหมายคุรุสภา",
+          "url": "https://www.ksp.or.th/laws/",
+          "type": "official_index",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "read_with",
+          "targetId": "doc-21622537",
+          "label": "อ่านร่วมกับข้อบังคับจรรยาบรรณ พ.ศ. 2556",
+          "basis": "ฉบับ พ.ศ. 2556 รับช่วงการอ้างอิงจากข้อบังคับเดิมและข้อ 6 กำหนดให้ประพฤติตามแบบแผนพฤติกรรม"
+        }
+      ],
+      "reformStatus": "keep",
+      "reformCode": "ก-2",
+      "note": "ข้อบังคับนี้ยังอ้างถ้อยคำจากฉบับมาตรฐานและจรรยาบรรณ พ.ศ. 2548 จึงควรอ่านผ่านบทรับช่วงในข้อ 3 ของข้อบังคับจรรยาบรรณ พ.ศ. 2556",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
@@ -3885,21 +4000,46 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "verify",
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับราชกิจจานุเบกษาและฉบับที่ 2 พ.ศ. 2569",
+      "statusBasis": "เป็นข้อบังคับฉบับฐานที่ใช้บังคับตั้งแต่วันประกาศ แต่ถูกแก้ไขเรื่ององค์ประกอบ คุณสมบัติ วิธีสรรหา และวาระของคณะอนุกรรมการโดยฉบับที่ 2 พ.ศ. 2569 จึงต้องอ่านร่วมกัน",
+      "officialUrl": "https://ratchakitcha.soc.go.th/documents/204062.pdf",
+      "gazette": "เล่ม 123 ตอนพิเศษ 129 ง วันที่ 15 ธันวาคม 2549 หน้า 41–48",
+      "effectiveDate": "2006-12-15",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ ฐานอำนาจ และสายการแก้ไขโดยฉบับที่ 2 พ.ศ. 2569 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "ราชกิจจานุเบกษา: ข้อบังคับว่าด้วยการอุทธรณ์คำวินิจฉัย พ.ศ. 2549",
+          "url": "https://ratchakitcha.soc.go.th/documents/204062.pdf",
+          "type": "official_gazette",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amended_by",
+          "targetId": "doc-b482076a",
+          "label": "แก้ไขโดยฉบับที่ 2 พ.ศ. 2569",
+          "basis": "แทนที่ข้อ 7 และข้อ 9 พร้อมเพิ่มข้อ 7/1–7/3"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-110ae2b2",
+          "label": "อ่านร่วมกับกระบวนพิจารณา พ.ศ. 2568",
+          "basis": "ใช้ในชั้นอุทธรณ์ต่อจากคำวินิจฉัยตามกระบวนพิจารณาการประพฤติผิดจรรยาบรรณ"
+        }
+      ],
+      "reformStatus": "amend",
       "reformCode": "ก-9",
       "note": null,
       "hasText": true,
@@ -6773,27 +6913,52 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
+      "status": "superseded",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานภาพตัวบทในคลังเทียบกับราชกิจจานุเบกษาและข้อบังคับฉบับที่ 2 พ.ศ. 2569",
+      "statusBasis": "ประกาศนี้กำหนดวิธีได้มาซึ่งคณะอนุกรรมการตามข้อ 7 เดิม แต่ข้อบังคับฉบับที่ 2 พ.ศ. 2569 แทนที่ข้อ 7 และเพิ่มข้อ 7/3 กำหนดองค์ประกอบ คุณสมบัติ และวิธีสรรหาใหม่โดยตรง จึงถูกแทนที่ในสาระ แม้ไม่พบบทเลิกประกาศโดยใช้ถ้อยคำชัดแจ้ง",
+      "officialUrl": "https://ratchakitcha.soc.go.th/documents/1826563.pdf",
+      "gazette": "เล่ม 127 ตอนพิเศษ 39 ง วันที่ 26 มีนาคม 2553 หน้า 14–16",
       "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 12392
+      "reviewScope": "ตรวจฐานอำนาจ องค์ประกอบ คุณสมบัติ วิธีคัดเลือก และความสอดคล้องกับข้อ 7 และข้อ 7/3 ใหม่ ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาและแบบท้ายประกาศในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "ราชกิจจานุเบกษา: หลักเกณฑ์และวิธีการได้มาซึ่งคณะอนุกรรมการอุทธรณ์",
+          "url": "https://ratchakitcha.soc.go.th/documents/1826563.pdf",
+          "type": "official_gazette",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "issued_under",
+          "targetId": "doc-8a85f030",
+          "label": "ออกตามข้อ 7 ของข้อบังคับอุทธรณ์ พ.ศ. 2549",
+          "basis": "ข้อ 7 เดิมมอบให้คณะกรรมการกำหนดหลักเกณฑ์และวิธีการได้มาซึ่งคณะอนุกรรมการ"
+        },
+        {
+          "type": "superseded_by",
+          "targetId": "doc-b482076a",
+          "label": "ถูกแทนที่ในสาระโดยฉบับที่ 2 พ.ศ. 2569",
+          "basis": "ข้อ 7 และข้อ 7/3 ใหม่กำหนดองค์ประกอบ คุณสมบัติ และกระบวนการสรรหาใหม่โดยตรง"
+        }
+      ],
+      "reformStatus": "repeal",
+      "reformCode": "ก-9",
+      "note": "สถานะ “ถูกแทนที่แล้ว” เป็นข้อสรุปเรื่องผลใช้ในสาระจากความขัดกันของหลักเกณฑ์ มิใช่การยืนยันว่ามีบทเลิกประกาศโดยชัดแจ้ง; งดเผยแพร่ข้อความ OCR เพราะคุณภาพไม่เพียงพอ",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-20dae98b",

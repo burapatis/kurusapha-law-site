@@ -19,7 +19,10 @@ ALLOWED_STATUSES = {"unverified", "in_force", "amended", "superseded", "repealed
 ALLOWED_VERIFICATION = {"unverified", "partial", "reviewed"}
 ALLOWED_EVIDENCE = {"local_file", "local_reviewed", "official_online"}
 ALLOWED_REVIEW_SOURCE_TYPES = {"local_original", "official_gazette", "official_agency", "official_index"}
-ALLOWED_RELATION_TYPES = {"amends", "amended_by", "supersedes", "superseded_by", "affected_by"}
+ALLOWED_RELATION_TYPES = {
+    "amends", "amended_by", "supersedes", "superseded_by", "affected_by",
+    "repeals", "repealed_by", "issued_under", "read_with",
+}
 INTERNAL_MARKERS = ("ร่างต้นแบบ", "บันทึกตรวจสอบ", "แผนแม่บทการสร้างเว็บไซต์", "รายงานความเห็นทางกฎหมาย")
 SENSITIVE_MARKERS = ("สัญญาจ้างรองเลขาธิการคุรุสภา", "ใบสมัครเข้ารับการสรรหา")
 

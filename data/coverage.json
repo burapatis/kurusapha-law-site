@@ -12,16 +12,16 @@
     "กฎหมายหลักการศึกษา": 15
   },
   "byStatus": {
-    "amended": 3,
-    "in_force": 6,
+    "amended": 4,
+    "in_force": 8,
     "repealed": 3,
-    "superseded": 2,
-    "unverified": 171
+    "superseded": 3,
+    "unverified": 167
   },
   "byVerification": {
-    "reviewed": 14,
-    "unverified": 171
+    "reviewed": 18,
+    "unverified": 167
   },
-  "fulltextDocs": 174,
+  "fulltextDocs": 171,
   "deduplicatedCopies": 4
 }
