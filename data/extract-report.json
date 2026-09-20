@@ -1,0 +1,9 @@
+{
+ "good_pdf": 79,
+ "good_txt": 1,
+ "good_docx": 19,
+ "need_ocr": 61,
+ "skip_img": 4,
+ "none": 3,
+ "total": 171
+}

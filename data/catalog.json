@@ -35,7 +35,8 @@
    "แบบฟอร์ม/สัญญา",
    "แผน/สถิติ"
   ],
-  "note": "เมทาดาทาสังเคราะห์จากชื่อไฟล์/หมวดโฟลเดอร์ + เสริมข้อมูลตรวจทานสำหรับฉบับสำคัญ; ตัวบทเต็มยังไม่ดัชนี (เฟส 1b)"
+  "note": "เมทาดาทาสังเคราะห์จากชื่อไฟล์/หมวดโฟลเดอร์ + เสริมข้อมูลตรวจทานสำหรับฉบับสำคัญ; ตัวบทเต็มยังไม่ดัชนี (เฟส 1b)",
+  "fulltextDocs": 99
  },
  "items": [
   {
@@ -54,7 +55,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1129
   },
   {
    "id": "doc-a12432c2",
@@ -72,7 +75,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": true
+   "hasText": false,
+   "textSource": "none"
   },
   {
    "id": "doc-61140c93",
@@ -90,7 +94,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": true
+   "hasText": false,
+   "textSource": "none"
   },
   {
    "id": "doc-b5cef7f7",
@@ -108,7 +113,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": true
+   "hasText": true,
+   "textSource": "txt",
+   "textChars": 18806
   },
   {
    "id": "doc-c5096df5",
@@ -126,7 +133,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": true
+   "hasText": false,
+   "textSource": "none"
   },
   {
    "id": "doc-daaf8db3",
@@ -144,7 +152,8 @@
    "reformCode": "ก-10",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-74dc4579",
@@ -162,7 +171,8 @@
    "reformCode": "ก-5",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-b482076a",
@@ -180,7 +190,8 @@
    "reformCode": "ก-9",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-110ae2b2",
@@ -198,7 +209,8 @@
    "reformCode": "ก-3",
    "gazette": "เล่ม 142 ตอนพิเศษ 257 ง (30 ก.ค. 2568)",
    "note": "ประกาศใช้แล้ว ยกเลิก 2553/2559/2563 — ตรวจทานแล้ว (เอกสาร #14)",
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-5a3fabb7",
@@ -216,7 +228,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-c4e9426d",
@@ -234,7 +247,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-c58d954d",
@@ -252,7 +266,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-8f55babb",
@@ -270,7 +285,8 @@
    "reformCode": "ก-1",
    "gazette": null,
    "note": "ฉบับแก้ไขล่าสุด",
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-6f247828",
@@ -288,7 +304,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-2f88e1b4",
@@ -306,7 +323,8 @@
    "reformCode": "ก-10",
    "gazette": null,
    "note": "ฐานรุ่นที่ 2 — ฉบับรวมถึง 2/2569 (เอกสาร #15)",
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-993bc739",
@@ -324,7 +342,8 @@
    "reformCode": "ก-4",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-a1935208",
@@ -342,7 +361,9 @@
    "reformCode": "ก-10",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4035
   },
   {
    "id": "doc-f6565ce7",
@@ -360,7 +381,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1842
   },
   {
    "id": "doc-616a1a43",
@@ -378,7 +401,9 @@
    "reformCode": "ก-4",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 17902
   },
   {
    "id": "doc-9ec28ead",
@@ -396,7 +421,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1923
   },
   {
    "id": "doc-a84da2e5",
@@ -414,7 +441,9 @@
    "reformCode": "ก-3",
    "gazette": null,
    "note": "ยกเลิกโดยฉบับ 2568",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 6110
   },
   {
    "id": "doc-cf3a1f2e",
@@ -432,7 +461,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 2851
   },
   {
    "id": "doc-6d2f5d79",
@@ -450,7 +481,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4924
   },
   {
    "id": "doc-f58d7672",
@@ -468,7 +501,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 2489
   },
   {
    "id": "doc-c80926ac",
@@ -486,7 +521,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 2372
   },
   {
    "id": "doc-8be18ad4",
@@ -522,7 +559,9 @@
    "reformCode": "ก-3",
    "gazette": null,
    "note": "ยกเลิกโดยฉบับ 2568",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4892
   },
   {
    "id": "doc-21622537",
@@ -540,7 +579,9 @@
    "reformCode": "ก-2",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4554
   },
   {
    "id": "doc-dfe7f088",
@@ -558,7 +599,9 @@
    "reformCode": "ก-1",
    "gazette": null,
    "note": "ฉบับฐาน — มีฉบับรวมถึงฉบับที่ 6 (เอกสารส่งมอบ #10)",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 11799
   },
   {
    "id": "doc-67da7463",
@@ -576,7 +619,9 @@
    "reformCode": "ก-3",
    "gazette": null,
    "note": "ยกเลิกโดยฉบับ 2568",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 63041
   },
   {
    "id": "doc-e8c30304",
@@ -594,7 +639,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1089
   },
   {
    "id": "doc-d79ffe1b",
@@ -612,7 +659,9 @@
    "reformCode": "ก-10",
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4566
   },
   {
    "id": "doc-4ad435b5",
@@ -630,7 +679,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 27062
   },
   {
    "id": "doc-2609d0a0",
@@ -648,7 +699,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-8a85f030",
@@ -666,7 +718,9 @@
    "reformCode": "ก-9",
    "gazette": null,
    "note": "ฐาน — แก้โดยฉบับที่ 2/2569; สอดคล้อง 2568 ข้อ 64 (เอกสาร #16)",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 10663
   },
   {
    "id": "doc-46b87de9",
@@ -684,7 +738,8 @@
    "reformCode": "ก-5",
    "gazette": null,
    "note": "ฉบับฐาน — ฉบับรวมถึงฉบับที่ 4 (เอกสาร #12)",
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-f909b3f9",
@@ -702,7 +757,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 43153
   },
   {
    "id": "doc-ac01e988",
@@ -720,7 +777,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1707
   },
   {
    "id": "doc-1aa29160",
@@ -738,7 +797,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-ed51f79e",
@@ -756,7 +816,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-6ad39c57",
@@ -774,7 +835,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 3396
   },
   {
    "id": "doc-b84ef957",
@@ -792,7 +855,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 3730
   },
   {
    "id": "doc-bacc25b6",
@@ -810,7 +875,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4225
   },
   {
    "id": "doc-d4d8f57b",
@@ -828,7 +895,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 13556
   },
   {
    "id": "doc-a8ddd073",
@@ -846,7 +915,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 203371
   },
   {
    "id": "doc-eedecb8e",
@@ -864,7 +935,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 7234
   },
   {
    "id": "doc-a7b3555f",
@@ -882,7 +955,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 6653
   },
   {
    "id": "doc-0afc9a2d",
@@ -900,7 +975,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 6271
   },
   {
    "id": "doc-289f8590",
@@ -918,7 +995,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 8928
   },
   {
    "id": "doc-f732b588",
@@ -936,7 +1015,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-56c7e624",
@@ -954,7 +1034,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 22842
   },
   {
    "id": "doc-fa5c093b",
@@ -972,7 +1054,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-5a01192f",
@@ -990,7 +1073,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 71936
   },
   {
    "id": "doc-7a00c3e6",
@@ -1008,7 +1093,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 18787
   },
   {
    "id": "doc-233da910",
@@ -1026,7 +1113,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-dc848d96",
@@ -1044,7 +1132,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-8c32ff70",
@@ -1062,7 +1151,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-6694c3b9",
@@ -1080,7 +1170,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-8ddc6adb",
@@ -1098,7 +1189,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-87579521",
@@ -1116,7 +1208,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-c4828442",
@@ -1134,7 +1227,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-cfc5cd2b",
@@ -1152,7 +1246,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-674c89df",
@@ -1170,7 +1265,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-02af593e",
@@ -1188,7 +1284,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-f561a2ab",
@@ -1206,7 +1303,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 3344
   },
   {
    "id": "doc-9a91c1c7",
@@ -1224,7 +1323,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-cdbe667d",
@@ -1242,7 +1342,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-e21d03c6",
@@ -1260,7 +1361,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-a3361243",
@@ -1278,7 +1380,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-bec2d027",
@@ -1296,7 +1399,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-7c19ae78",
@@ -1314,7 +1418,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-dd44a99e",
@@ -1332,7 +1437,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-14fb110f",
@@ -1350,7 +1456,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 9656
   },
   {
    "id": "doc-ffc90bcb",
@@ -1368,7 +1476,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 9999
   },
   {
    "id": "doc-1bd18301",
@@ -1386,7 +1496,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 9999
   },
   {
    "id": "doc-234164d7",
@@ -1404,7 +1516,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-525a1970",
@@ -1422,7 +1535,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-b91de243",
@@ -1440,7 +1554,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-2107da25",
@@ -1458,7 +1573,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-c42b3b89",
@@ -1476,7 +1592,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-762057c3",
@@ -1494,7 +1611,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-84606075",
@@ -1512,7 +1630,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 969
   },
   {
    "id": "doc-274c3fd3",
@@ -1530,7 +1650,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1552
   },
   {
    "id": "doc-6bd8b4bf",
@@ -1548,7 +1670,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5463
   },
   {
    "id": "doc-33e21333",
@@ -1566,7 +1690,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5463
   },
   {
    "id": "doc-0b7b02cc",
@@ -1584,7 +1710,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 9513
   },
   {
    "id": "doc-0cb82138",
@@ -1602,7 +1730,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 14343
   },
   {
    "id": "doc-659532a5",
@@ -1620,7 +1750,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5098
   },
   {
    "id": "doc-807acccb",
@@ -1638,7 +1770,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 7136
   },
   {
    "id": "doc-e7774b85",
@@ -1656,7 +1790,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1317
   },
   {
    "id": "doc-b45d2c50",
@@ -1674,7 +1810,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 8178
   },
   {
    "id": "doc-60f66b35",
@@ -1692,7 +1830,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 22617
   },
   {
    "id": "doc-20f2dc34",
@@ -1710,7 +1850,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 13905
   },
   {
    "id": "doc-41de423a",
@@ -1728,7 +1870,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 6643
   },
   {
    "id": "doc-a00d287f",
@@ -1746,7 +1890,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-20dae98b",
@@ -1764,7 +1909,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 6795
   },
   {
    "id": "doc-3919becb",
@@ -1782,7 +1929,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5345
   },
   {
    "id": "doc-f02446a0",
@@ -1800,7 +1949,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 10159
   },
   {
    "id": "doc-e8b1300d",
@@ -1818,7 +1969,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 961
   },
   {
    "id": "doc-391762b3",
@@ -1836,7 +1989,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1014
   },
   {
    "id": "doc-d5422f25",
@@ -1854,7 +2009,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5865
   },
   {
    "id": "doc-952a8fe5",
@@ -1872,7 +2029,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5882
   },
   {
    "id": "doc-4f601e0c",
@@ -1890,7 +2049,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-58c530d5",
@@ -1908,7 +2068,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 43903
   },
   {
    "id": "doc-8278ebdb",
@@ -1926,7 +2088,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-8fcac4a9",
@@ -1944,7 +2107,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-82a516a5",
@@ -1962,7 +2126,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 8873
   },
   {
    "id": "doc-54ef7c50",
@@ -1980,7 +2146,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 8769
   },
   {
    "id": "doc-eb6b598d",
@@ -1998,7 +2166,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-d0d49720",
@@ -2016,7 +2185,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 15541
   },
   {
    "id": "doc-092534be",
@@ -2034,7 +2205,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 79535
   },
   {
    "id": "doc-a1dc4e09",
@@ -2052,7 +2225,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 11437
   },
   {
    "id": "doc-36fafa9f",
@@ -2070,7 +2245,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 1523
   },
   {
    "id": "doc-a27667eb",
@@ -2088,7 +2265,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 38901
   },
   {
    "id": "doc-113914c2",
@@ -2106,7 +2285,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-bfa4200b",
@@ -2124,7 +2304,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-1d403b69",
@@ -2142,7 +2323,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-f244cbdb",
@@ -2160,7 +2342,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-676c19cb",
@@ -2178,7 +2361,9 @@
    "reformCode": "ข-1",
    "gazette": null,
    "note": "ฐาน รธน.2550 สิ้นผล — แทนด้วยข้อกำหนดจริยธรรมอิง พ.ร.บ.2562",
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 9396
   },
   {
    "id": "doc-680b933b",
@@ -2196,7 +2381,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 2499
   },
   {
    "id": "doc-ba390c02",
@@ -2214,7 +2401,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-1f7336cc",
@@ -2232,7 +2420,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-4e9cd675",
@@ -2250,7 +2439,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 14216
   },
   {
    "id": "doc-77018f8b",
@@ -2268,7 +2459,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 14216
   },
   {
    "id": "doc-a788c32c",
@@ -2286,7 +2479,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 4833
   },
   {
    "id": "doc-15cd712a",
@@ -2304,7 +2499,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-ae2e409c",
@@ -2322,7 +2518,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 27072
   },
   {
    "id": "doc-023e6829",
@@ -2340,7 +2538,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 37073
   },
   {
    "id": "doc-f7b95fb4",
@@ -2358,7 +2558,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 195666
   },
   {
    "id": "doc-e2f76fc4",
@@ -2376,7 +2578,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-9e5ff36e",
@@ -2394,7 +2597,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-06bd238c",
@@ -2412,7 +2616,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 5866
   },
   {
    "id": "doc-343952ac",
@@ -2430,7 +2636,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 179112
   },
   {
    "id": "doc-145e1216",
@@ -2448,7 +2656,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 13039
   },
   {
    "id": "doc-d3171dee",
@@ -2466,7 +2676,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-eedf388f",
@@ -2484,7 +2695,8 @@
    "reformCode": null,
    "gazette": null,
    "note": "กฎหมายแม่ (ฐานอำนาจอนุบัญญัติทั้งหมด)",
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-5c59089c",
@@ -2502,7 +2714,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-4d05768c",
@@ -2520,7 +2733,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-c1e81f6c",
@@ -2538,7 +2752,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-27e28983",
@@ -2628,7 +2843,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 9379
   },
   {
    "id": "doc-a4517d18",
@@ -2646,7 +2863,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 52414
   },
   {
    "id": "doc-df13a51a",
@@ -2664,7 +2883,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 54147
   },
   {
    "id": "doc-f75d66f5",
@@ -2682,7 +2903,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 9069
   },
   {
    "id": "doc-12a5f8fb",
@@ -2700,7 +2923,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 4523
   },
   {
    "id": "doc-087fb013",
@@ -2718,7 +2943,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 8671
   },
   {
    "id": "doc-54c12679",
@@ -2736,7 +2963,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 14480
   },
   {
    "id": "doc-1b2ece45",
@@ -2754,7 +2983,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 7120
   },
   {
    "id": "doc-9d43ecf5",
@@ -2772,7 +3003,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 11600
   },
   {
    "id": "doc-98c67291",
@@ -2790,7 +3023,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 9565
   },
   {
    "id": "doc-d18c58d9",
@@ -2808,7 +3043,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 11381
   },
   {
    "id": "doc-186533b1",
@@ -2826,7 +3063,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 7240
   },
   {
    "id": "doc-10663de8",
@@ -2844,7 +3083,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 6504
   },
   {
    "id": "doc-c6658760",
@@ -2862,7 +3103,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 10904
   },
   {
    "id": "doc-22ceee69",
@@ -2880,7 +3123,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 17880
   },
   {
    "id": "doc-7452df23",
@@ -2898,7 +3143,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 10281
   },
   {
    "id": "doc-797dc4de",
@@ -2916,7 +3163,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 29356
   },
   {
    "id": "doc-46540391",
@@ -2934,7 +3183,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 10563
   },
   {
    "id": "doc-b556fa50",
@@ -2952,7 +3203,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-3873840d",
@@ -3024,7 +3276,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "docx",
+   "textChars": 9943
   },
   {
    "id": "doc-21d73916",
@@ -3042,7 +3296,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 294729
   },
   {
    "id": "doc-def7385e",
@@ -3060,7 +3316,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 45670
   },
   {
    "id": "doc-4ebcbd6f",
@@ -3078,7 +3336,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 117633
   },
   {
    "id": "doc-b3e200ac",
@@ -3096,7 +3356,8 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": false,
+   "textSource": "need_ocr"
   },
   {
    "id": "doc-a6aef267",
@@ -3114,7 +3375,9 @@
    "reformCode": null,
    "gazette": null,
    "note": null,
-   "hasText": false
+   "hasText": true,
+   "textSource": "pdf",
+   "textChars": 308708
   }
  ]
 }
