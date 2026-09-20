@@ -9,7 +9,7 @@ const RSMAP={keep:["คงไว้","b-keep"],amend:["แก้ไข","b-amend
   verify:["ตรวจสอบ","b-verify"],done:["ดำเนินการแล้ว","b-done"]};
 const STMAP={in_force:["ใช้บังคับ","b-inforce"],amended:["มีแก้ไข","b-amended"],repealed:["ยกเลิกแล้ว","b-repealed"],
   reference:["เอกสารอ้างอิง","b-reference"],draft:["ร่าง","b-draft"]};
-const SRCLABEL={pdf:"สกัดจาก PDF (ยังไม่ตรวจทาน)",docx:"จากเอกสารโครงการ",txt:"จากไฟล์ข้อความ",need_ocr:"ต้อง OCR (ยังไม่มีข้อความ)",none:"—"};
+const SRCLABEL={pdf:"สกัดจาก PDF (ยังไม่ตรวจทาน)",ocr:"OCR อัตโนมัติ (ยังไม่ตรวจทาน)",docx:"จากเอกสารโครงการ",txt:"จากไฟล์ข้อความ",need_ocr:"ต้อง OCR (ยังไม่มีข้อความ)",none:"—"};
 const GAZETTE="https://ratchakitcha.soc.go.th/";
 const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -64,7 +64,7 @@ async function initDashboard(){
     el("div",{}, Object.entries(byCat).sort((a,b)=>b[1]-a[1]).map(([c,n])=>
       el("a",{class:"chip",href:"library.html?cat="+encodeURIComponent(c)},c+" ("+n+")")))));
   $("#app").append(el("p",{class:"disclaimer",style:"margin-top:16px"},
-    "ค้นหาเต็มข้อความครอบคลุม "+ft+" ฉบับที่สกัดข้อความได้ (อีกส่วนเป็น PDF ฟอนต์เก่า/สแกน รอทำ OCR); เมทาดาทาสังเคราะห์จากชื่อไฟล์ ตรวจกับต้นฉบับก่อนอ้างอิงทางการ"));
+    "ค้นหาเต็มข้อความครอบคลุม "+ft+" ฉบับ (รวมฉบับที่ทำ OCR จาก PDF ฟอนต์เก่า/สแกน ซึ่งยังไม่ตรวจทาน); เมทาดาทาสังเคราะห์จากชื่อไฟล์ ตรวจกับต้นฉบับก่อนอ้างอิงทางการ"));
 }
 function stat(n,l,s){return el("div",{class:"card stat"},el("span",{class:"n"},String(n)),el("span",{class:"l"},l),s?el("span",{class:"s"},s):null);}
 
@@ -165,7 +165,7 @@ async function initInstrument(){
   if(i.hasText){
     const box=el("div",{class:"card",style:"margin-top:14px"},
       el("h3",{},"ข้อความที่สกัดได้"),
-      el("p",{class:"disclaimer"}, i.textSource==="pdf"?"สกัดอัตโนมัติจาก PDF — ยังไม่ตรวจทานกับต้นฉบับ ควรใช้ประกอบการค้นหา มิใช่อ้างอิงทางการ":"จากเอกสาร/ไฟล์ข้อความของโครงการ"),
+      el("p",{class:"disclaimer"}, i.textSource==="ocr"?"OCR อัตโนมัติจาก PDF ฟอนต์เก่า/สแกน — อาจมีอักขระคลาดเคลื่อน ยังไม่ตรวจทานกับต้นฉบับ ใช้เพื่อการค้นหาเท่านั้น มิใช่อ้างอิงทางการ":(i.textSource==="pdf"?"สกัดอัตโนมัติจาก PDF — ยังไม่ตรวจทานกับต้นฉบับ ควรใช้ประกอบการค้นหา มิใช่อ้างอิงทางการ":"จากเอกสาร/ไฟล์ข้อความของโครงการ")),
       el("div",{id:"ftext",class:"count"},"กำลังโหลดข้อความ…"));
     $("#app").append(box);
     getText("data/text/"+i.id+".txt").then(t=>{
