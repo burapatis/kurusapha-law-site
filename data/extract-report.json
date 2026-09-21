@@ -1,13 +1,13 @@
 {
   "generated": "2026-09-20",
-  "total": 185,
-  "fulltextDocs": 167,
-  "withoutFulltext": 18,
+  "total": 184,
+  "fulltextDocs": 163,
+  "withoutFulltext": 21,
   "byTextSource": {
     "companion": 30,
     "none": 3,
-    "ocr": 54,
-    "pdf": 79,
+    "ocr": 51,
+    "pdf": 78,
     "txt": 1
   },
   "note": "ข้อความสกัด/OCR ใช้ช่วยค้นหาเท่านั้น และไม่ใช้แทนต้นฉบับทางการ"

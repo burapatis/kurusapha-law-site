@@ -7,8 +7,8 @@
       "กฎหมายหลัก",
       "กฎหมายหลักการศึกษา"
     ],
-    "count": 185,
-    "fulltextDocs": 167,
+    "count": 184,
+    "fulltextDocs": 163,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,15 +40,15 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 157,
-      "in_force": 13,
-      "amended": 5,
-      "repealed": 7,
+      "unverified": 151,
+      "in_force": 14,
+      "amended": 8,
+      "repealed": 8,
       "superseded": 3
     },
     "verificationCounts": {
-      "unverified": 157,
-      "reviewed": 28
+      "unverified": 151,
+      "reviewed": 33
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -5139,7 +5139,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - ทดสอบและประเมินสมรรถนะวิชาชีพครู ฉบับที่ 4 2569.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2569,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -5159,27 +5159,52 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "local_reviewed",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานภาพตัวบทครบทั้งฉบับจากสำเนาราชกิจจานุเบกษาในคลัง",
+      "statusBasis": "ใช้บังคับตั้งแต่วันถัดจากวันประกาศในราชกิจจานุเบกษา เพิ่มบทนิยามคำว่า ‘สถานศึกษา’ ในข้อ 4 และแทนที่ข้อ 10 ซึ่งเคยแก้ไขโดยฉบับที่ 3 พ.ศ. 2568 โดยไม่พบบทแก้ไขภายหลังในสายที่ตรวจ",
       "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 2817
+      "gazette": "เล่ม 143 ตอนพิเศษ 111 ง วันที่ 5 พฤษภาคม 2569 หน้า 27–28",
+      "effectiveDate": "2026-05-06",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ และข้อความที่แก้ไขข้อ 4 กับข้อ 10 ของประกาศ พ.ศ. 2566 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาฉบับที่ 4 พ.ศ. 2569 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-ffc90bcb",
+          "label": "แก้ไขประกาศฉบับฐาน พ.ศ. 2566",
+          "basis": "เพิ่มบทนิยามในข้อ 4 และแทนที่ข้อ 10"
+        },
+        {
+          "type": "supersedes",
+          "targetId": "doc-674c89df",
+          "label": "แทนที่ข้อความข้อ 10 ตามฉบับที่ 3 พ.ศ. 2568",
+          "basis": "แทนที่เฉพาะข้อ 10; ส่วนแก้ไขอื่นของฉบับที่ 3 ยังต้องอ่านร่วมกัน"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-616a1a43",
+          "label": "ออกตามข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565",
+          "basis": "เป็นหลักเกณฑ์การทดสอบที่เชื่อมกับคุณสมบัติและการขอรับใบอนุญาตประกอบวิชาชีพครู"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ข-2",
+      "note": "ยังไม่พบลิงก์ตรงของฉบับนี้จากระบบค้นหาสาธารณะ จึงยืนยันจากภาพสำเนาราชกิจจานุเบกษาในคลัง; งดเผยแพร่ข้อความ OCR เพราะอ่านตัวบทและเลขข้อคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-8c32ff70",
@@ -5427,7 +5452,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - ทดสอบและประเมินสมรรถนะวิชาชีพครู ฉบับที่ 2 2568.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2568,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -5447,27 +5472,58 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 4031
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานภาพตัวบทในคลังเทียบกับประกาศของคุรุสภาและฉบับที่ 3 พ.ศ. 2568",
+      "statusBasis": "ใช้บังคับตั้งแต่วันถัดจากวันประกาศ แทนที่ข้อ 10 ข้อ 12 และข้อ 18 พร้อมกำหนดอัตราค่าสมัคร; ต่อมาฉบับที่ 3 พ.ศ. 2568 แทนที่ข้อ 10 ข้อ 12 (ค) และข้อ 18 แต่ข้อ 12 ส่วนอื่นกับบัญชีอัตราค่าสมัครของฉบับนี้ยังต้องอ่านประกอบ",
+      "officialUrl": "https://www.ksp.or.th/2025/03/20/54987/",
+      "gazette": "เล่ม 142 ตอนพิเศษ 126 ง วันที่ 13 มีนาคม 2568 หน้า 28–29 และบัญชีอัตราค่าสมัครแนบท้าย",
+      "effectiveDate": "2025-03-14",
+      "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ ข้อที่แก้ไข บัญชีอัตราค่าสมัคร และผลของฉบับที่ 3 พ.ศ. 2568 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาฉบับที่ 2 พ.ศ. 2568 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "คุรุสภา: สาระสำคัญของประกาศฉบับที่ 2 พ.ศ. 2568",
+          "url": "https://www.ksp.or.th/2025/03/20/54987/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-ffc90bcb",
+          "label": "แก้ไขประกาศฉบับฐาน พ.ศ. 2566",
+          "basis": "แทนที่ข้อ 10 ข้อ 12 และข้อ 18 พร้อมกำหนดบัญชีอัตราค่าสมัคร"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-674c89df",
+          "label": "แก้ไขต่อบางส่วนโดยฉบับที่ 3 พ.ศ. 2568",
+          "basis": "ข้อ 10 ข้อ 12 (ค) และข้อ 18 ถูกแทนที่ แต่ข้อ 12 ส่วนอื่นกับบัญชีอัตราค่าสมัครยังต้องอ่านประกอบ"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-616a1a43",
+          "label": "ออกตามข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565",
+          "basis": "เป็นหลักเกณฑ์การทดสอบที่เชื่อมกับคุณสมบัติและการขอรับใบอนุญาตประกอบวิชาชีพครู"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ข-2",
+      "note": "สถานะ ‘มีแก้ไข’ หมายถึงบางข้อถูกฉบับที่ 3 แทนที่ ไม่ใช่ทั้งฉบับสิ้นผล; งดเผยแพร่ข้อความ OCR เพราะอ่านตัวบทและเลขข้อคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-674c89df",
@@ -5475,7 +5531,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - ทดสอบและประเมินสมรรถนะวิชาชีพครู ฉบับที่ 3 2568.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2568,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -5495,27 +5551,52 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "local_reviewed",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานภาพตัวบทครบทั้งฉบับและลำดับการแก้ไขถึงฉบับที่ 4 พ.ศ. 2569",
+      "statusBasis": "ใช้บังคับตั้งแต่วันถัดจากวันประกาศ เพิ่มบทนิยามคำว่า ‘กลุ่มวิชา’ แก้ข้อ 8 ข้อ 10 ข้อ 12 (ค) และข้อ 18 พร้อมยกเลิกข้อ 11 และข้อ 23; ต่อมาข้อ 10 ถูกฉบับที่ 4 พ.ศ. 2569 แทนที่ แต่ส่วนอื่นยังต้องอ่านร่วมกับฉบับฐาน",
       "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 3204
+      "gazette": "เล่ม 142 ตอนพิเศษ 397 ง วันที่ 22 ธันวาคม 2568 หน้า 34–35",
+      "effectiveDate": "2025-12-23",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ ข้อที่เพิ่ม แก้ และยกเลิก ตลอดจนผลของฉบับที่ 4 พ.ศ. 2569 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาฉบับที่ 3 พ.ศ. 2568 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-ffc90bcb",
+          "label": "แก้ไขประกาศฉบับฐาน พ.ศ. 2566",
+          "basis": "เพิ่มบทนิยาม แก้ข้อ 8 ข้อ 10 ข้อ 12 (ค) และข้อ 18 และยกเลิกข้อ 11 กับข้อ 23"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-dc848d96",
+          "label": "ข้อ 10 ถูกแก้ไขต่อโดยฉบับที่ 4 พ.ศ. 2569",
+          "basis": "ฉบับที่ 4 แทนที่เฉพาะข้อ 10 ซึ่งฉบับนี้เคยแก้ไข"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-616a1a43",
+          "label": "ออกตามข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565",
+          "basis": "เป็นหลักเกณฑ์การทดสอบที่เชื่อมกับคุณสมบัติและการขอรับใบอนุญาตประกอบวิชาชีพครู"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ข-2",
+      "note": "ยังไม่พบลิงก์ตรงของฉบับนี้จากระบบค้นหาสาธารณะ จึงยืนยันจากภาพสำเนาราชกิจจานุเบกษาในคลัง; สถานะ ‘มีแก้ไข’ หมายถึงข้อ 10 ถูกแทนที่ภายหลัง ไม่ใช่ทั้งฉบับสิ้นผล; งดเผยแพร่ข้อความ OCR เพราะอ่านตัวบทคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-02af593e",
@@ -6090,7 +6171,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - หลักเกณฑ์ทดสอบและประเมินสมรรถนะวิชาชีพครู 2566.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2566,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -6110,71 +6191,72 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "pdf",
-      "textChars": 11037
-    },
-    {
-      "id": "doc-1bd18301",
-      "title": "ประกาศคุรุสภา - หลักเกณฑ์ทดสอบและประเมินสมรรถนะวิชาชีพครู 2566 (ไฟล์อีกฉบับ 02)",
-      "file": "05_ประกาศ/ประกาศคุรุสภา - หลักเกณฑ์ทดสอบและประเมินสมรรถนะวิชาชีพครู 2566 (ไฟล์อีกฉบับ 02).pdf",
-      "category": "ประกาศ",
-      "type": "ประกาศ",
-      "issuer": "คุรุสภา",
-      "year": 2566,
-      "ext": "pdf",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับหอสมุดคุรุสภา ประกาศของคุรุสภา และฉบับแก้ไขที่ 2–4",
+      "statusBasis": "เป็นประกาศฉบับฐานที่ใช้บังคับพร้อมข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565 ยกเลิกประกาศ พ.ศ. 2563 และฉบับที่ 2 พ.ศ. 2564 และถูกแก้ไขต่อโดยฉบับที่ 2–4 จึงต้องอ่านทุกฉบับที่ยังมีผลร่วมกัน",
+      "officialUrl": "https://elibrary.ksp.or.th/index.php?id=24179&lvl=notice_display",
+      "gazette": "เล่ม 140 ตอนพิเศษ 82 ง วันที่ 5 เมษายน 2566 หน้า 14–19 และบัญชีอัตราค่าสมัครแนบท้าย",
+      "effectiveDate": "2023-03-15",
+      "reviewScope": "ตรวจวันประกาศ เงื่อนไขวันใช้บังคับ บทเลิกฉบับเดิม เนื้อหาหลัก และสายการแก้ไขถึงฉบับที่ 4 พ.ศ. 2569 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
         {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "05_ประกาศ/ประกาศคุรุสภา - หลักเกณฑ์ทดสอบและประเมินสมรรถนะวิชาชีพครู 2566 (ไฟล์อีกฉบับ 02).pdf",
-          "ext": "pdf",
-          "sha256": "b8cb051c519b38b0d7d9fc7c68ecf850a743e3e0e7a074b522b806ecbf203562",
-          "bytes": 304079
+          "label": "สำเนาราชกิจจานุเบกษา พ.ศ. 2566 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: หลักเกณฑ์และวิธีการทดสอบและประเมินสมรรถนะวิชาชีพครู พ.ศ. 2566",
+          "url": "https://elibrary.ksp.or.th/index.php?id=24179&lvl=notice_display",
+          "type": "official_agency",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "คุรุสภา: การประกาศใช้และผลยกเลิกฉบับเดิม",
+          "url": "https://www.ksp.or.th/2023/04/10/43464/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-20"
         }
       ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "legalRelations": [
+        {
+          "type": "repeals",
+          "targetId": "doc-0b7b02cc",
+          "label": "ยกเลิกประกาศ พ.ศ. 2563",
+          "basis": "ข้อ 3 (1) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-cfc5cd2b",
+          "label": "แก้ไขโดยฉบับที่ 2 พ.ศ. 2568",
+          "basis": "แก้ข้อ 10 ข้อ 12 ข้อ 18 และบัญชีอัตราค่าสมัคร"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-674c89df",
+          "label": "แก้ไขโดยฉบับที่ 3 พ.ศ. 2568",
+          "basis": "เพิ่มบทนิยาม แก้ข้อ 8 ข้อ 10 ข้อ 12 (ค) และข้อ 18 และยกเลิกข้อ 11 กับข้อ 23"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-dc848d96",
+          "label": "แก้ไขโดยฉบับที่ 4 พ.ศ. 2569",
+          "basis": "เพิ่มบทนิยามคำว่า ‘สถานศึกษา’ และแทนที่ข้อ 10"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-616a1a43",
+          "label": "ออกตามข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565",
+          "basis": "ข้อ 13 ของข้อบังคับกำหนดการทดสอบและประเมินตามหลักเกณฑ์ที่คณะกรรมการคุรุสภากำหนด"
+        }
+      ],
+      "reformStatus": "amend",
+      "reformCode": "ข-2",
+      "note": "ประกาศฉบับฐานต้องอ่านร่วมกับฉบับแก้ไขที่ 2–4; ในคลังเดิมมีไฟล์ปี 2566 ซ้ำต่างไบนารีแต่ข้อความเหมือนกัน ซึ่งได้คงฉบับหลักไว้เพียงฉบับเดียว",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
@@ -6710,7 +6792,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - หลักเกณฑ์ทดสอบและประเมินสมรรถนะวิชาชีพครู 2563.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2563,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -6730,22 +6812,41 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "local_reviewed",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
+      "status": "repealed",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-20",
+      "verifiedBy": "ตรวจทานตัวบทในคลังเทียบกับบทเลิกในประกาศ พ.ศ. 2566",
+      "statusBasis": "เคยใช้บังคับตั้งแต่วันถัดจากวันประกาศในราชกิจจานุเบกษา แต่ถูกข้อ 3 (1) ของประกาศ พ.ศ. 2566 ยกเลิกโดยชัดแจ้ง",
       "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
+      "gazette": "เล่ม 137 ตอนพิเศษ 109 ง วันที่ 7 พฤษภาคม 2563 หน้า 15–20 และบัญชีอัตราค่าสมัครแนบท้าย",
+      "effectiveDate": "2020-05-08",
+      "reviewScope": "ตรวจวันประกาศ วันใช้บังคับ และบทเลิกโดยประกาศ พ.ศ. 2566 ณ วันที่ 20 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษา พ.ศ. 2563 ในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-20"
+        },
+        {
+          "label": "คุรุสภา: ประกาศ พ.ศ. 2566 และผลยกเลิกฉบับ พ.ศ. 2563",
+          "url": "https://www.ksp.or.th/2023/04/10/43464/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-20"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "repealed_by",
+          "targetId": "doc-ffc90bcb",
+          "label": "ยกเลิกโดยประกาศ พ.ศ. 2566",
+          "basis": "ข้อ 3 (1) ของประกาศ พ.ศ. 2566"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ข-2",
       "note": null,
       "hasText": true,
       "publicFulltext": true,
