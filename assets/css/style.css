@@ -101,6 +101,25 @@ h2, h3 { color: var(--navy); line-height: 1.35; }
 .button.secondary { color: var(--navy); background: #fff; }
 
 /* Dashboard */
+.phase-status { margin-bottom: 16px; border-color: #b9d7c2; border-top: 5px solid var(--green); background: linear-gradient(135deg, #fff 0%, #f2f8f3 100%); }
+.phase-status-full { padding: 18px; border: 1px solid #b9d7c2; border-top-width: 5px; border-radius: 14px; scroll-margin-top: 82px; }
+.phase-status-head { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.phase-status-head h2 { margin: 8px 0 4px; }
+.phase-date { flex: 0 0 auto; color: var(--muted); font-size: 14px; }
+.phase-status .lead { margin: 8px 0 13px; }
+.phase-metrics { display: flex; flex-wrap: wrap; gap: 8px; }
+.phase-metrics span { padding: 6px 11px; border: 1px solid #cbdacf; border-radius: 999px; color: #365142; background: rgba(255, 255, 255, .78); font-size: 14px; }
+.phase-metrics strong { color: var(--green); font-size: 17px; }
+.phase-columns { margin-top: 16px; }
+.phase-columns li, .next-phase li { margin-bottom: 7px; }
+.limitation-card { border-left: 5px solid var(--accent); }
+.next-phase { margin-top: 16px; border-top: 5px solid var(--navy-2); }
+.eyebrow { margin: 0 0 3px; color: var(--teal); font-size: 13px; font-weight: 700; letter-spacing: .035em; text-transform: uppercase; }
+.roadmap-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 15px; }
+.roadmap-item { padding: 15px; border: 1px solid var(--line); border-radius: 10px; background: #f8fafc; }
+.roadmap-item h3 { margin: 0 0 6px; }
+.roadmap-item p { margin: 5px 0; }
+.completion-test { color: var(--muted); font-size: 14.5px; }
 .scope-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .scope-item { display: flex; min-height: 80px; flex-direction: column; justify-content: center; padding: 12px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; background: #f8fafc; }
 .scope-item:hover { border-color: #94a9c0; text-decoration: none; }
@@ -221,7 +240,8 @@ footer.site p { margin: 3px 0; }
   body { font-size: 16px; }
   .wrap { width: min(100% - 24px, 1120px); }
   .pagehead { padding: 25px 0 13px; }
-  .g2, .g3, .g4, .scope-grid, .method-grid { grid-template-columns: 1fr; }
+  .g2, .g3, .g4, .scope-grid, .method-grid, .roadmap-grid { grid-template-columns: 1fr; }
+  .phase-status-head { flex-direction: column; gap: 4px; }
   .stat { min-height: 105px; }
   .controls { align-items: stretch; }
   .field, .field:first-child { width: 100%; flex: 1 1 100%; }

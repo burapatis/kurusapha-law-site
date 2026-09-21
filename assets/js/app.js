@@ -157,7 +157,7 @@ function chrome() {
     main.setAttribute("tabindex", "-1");
   }
   document.body.append(el("footer", {class: "site"}, el("div", {class: "wrap"},
-    el("p", {}, "ฐานข้อมูลเพื่อการศึกษาและสนับสนุนการทบทวนกฎหมาย • รุ่น 2.1"),
+    el("p", {}, "ฐานข้อมูลเพื่อการศึกษาและสนับสนุนการทบทวนกฎหมาย • รุ่น 2.2 • ปิดงานระยะที่ 1 แล้ว"),
     el("p", {}, "ข้อมูลสถานะที่ยังไม่ตรวจยืนยันไม่ควรใช้แทนต้นฉบับทางการหรือความเห็นของผู้มีอำนาจ"),
     el("p", {}, el("a", {href: "methodology.html"}, "วิธีจัดทำและข้อจำกัด"), " · ",
       el("a", {href: GAZETTE, target: "_blank", rel: "noopener"}, "ราชกิจจานุเบกษา ↗")))));
@@ -169,18 +169,60 @@ function head(title, subtitle) {
   if (subtitle) area.append(el("p", {}, subtitle));
 }
 
+function projectStatusView(data, full = false) {
+  if (!data || !data.phase) return null;
+  const phase = data.phase;
+  const snapshot = data.snapshot || {};
+  const banner = el("section", {class: `phase-status ${full ? "phase-status-full" : "card"}`,
+    id: full ? "project-roadmap" : null, "aria-labelledby": full ? "phase-status-title" : null},
+    el("div", {class: "phase-status-head"},
+      el("div", {}, el("span", {class: "badge b-done"}, "ปิดระยะที่ 1 แล้ว"),
+        el("h2", {id: full ? "phase-status-title" : null}, `สถานะโครงการ: ${phase.name}`)),
+      phase.closedAt ? el("span", {class: "phase-date"}, `ปิดเมื่อ ${thaiDate(phase.closedAt)}`) : null),
+    el("p", {class: "lead"}, phase.summary || ""),
+    el("div", {class: "phase-metrics", "aria-label": "สรุปสถานะข้อมูล"},
+      el("span", {}, el("strong", {}, String(snapshot.reviewed ?? "—")), " ตรวจแล้ว"),
+      el("span", {}, el("strong", {}, String(snapshot.unverified ?? "—")), " รอตรวจยืนยัน"),
+      el("span", {}, el("strong", {}, String(snapshot.fulltext ?? "—")), " ค้นเนื้อความได้")));
+  if (!full) {
+    banner.append(el("a", {class: "text-link", href: "methodology.html#project-roadmap"}, "ดูผลงานที่ปิดแล้ว ข้อจำกัด และแผนระยะต่อไป →"));
+    return banner;
+  }
+  banner.append(
+    el("div", {class: "grid g2 phase-columns"},
+      el("section", {class: "card"}, el("h3", {}, "สิ่งที่เสร็จแล้วในระยะที่ 1"),
+        el("ul", {}, (data.completed || []).map(item => el("li", {}, item)))),
+      el("section", {class: "card limitation-card"}, el("h3", {}, "ข้อจำกัดที่ผู้ใช้ต้องทราบ"),
+        el("ul", {}, (data.limitations || []).map(item => el("li", {}, item))))));
+  const next = data.nextPhase || {};
+  const nextSection = el("section", {class: "next-phase card", "aria-labelledby": "next-phase-title"},
+    el("p", {class: "eyebrow"}, `แผนพัฒนาระยะที่ ${next.number || 2}`),
+    el("h2", {id: "next-phase-title"}, next.name || "แผนพัฒนาระยะต่อไป"),
+    next.objective ? el("p", {class: "lead"}, next.objective) : null,
+    el("div", {class: "roadmap-grid"}, (next.workstreams || []).map(work =>
+      el("article", {class: "roadmap-item"}, el("h3", {}, work.title), el("p", {}, work.detail),
+        work.completion ? el("p", {class: "completion-test"}, el("strong", {}, "เกณฑ์เสร็จ: "), work.completion) : null))));
+  if (next.startChecklist && next.startChecklist.length) nextSection.append(
+    el("h3", {}, "สิ่งที่ต้องยืนยันเมื่อเริ่มระยะที่ 2"),
+    el("ol", {}, next.startChecklist.map(item => el("li", {}, item))));
+  banner.append(nextSection);
+  return banner;
+}
+
 /* Dashboard */
 async function initDashboard() {
   head("ภาพรวมคลังกฎหมาย", "ค้นคว้า ติดตาม และตรวจสอบข้อเสนอปรับปรุงกฎหมายที่เกี่ยวกับคุรุสภาและวิชาชีพทางการศึกษา");
-  const [catalog, register, proposals] = await Promise.all([
+  const [catalog, register, proposals, projectStatus] = await Promise.all([
     getJSON("data/catalog.json"), getJSON("data/register.json").catch(() => ({items: []})),
-    getJSON("data/proposals.json").catch(() => ({groups: []}))
+    getJSON("data/proposals.json").catch(() => ({groups: []})),
+    getJSON("data/project-status.json").catch(() => null)
   ]);
   const items = catalog.items || [];
   const reviewed = items.filter(item => item.verificationStatus === "reviewed").length;
   const unverified = items.filter(item => item.verificationStatus !== "reviewed").length;
   const fulltext = catalog.meta.fulltextDocs || items.filter(item => item.hasText).length;
   $("#app").append(
+    projectStatusView(projectStatus),
     el("div", {class: "notice"}, el("strong", {}, "อ่านสถานะอย่างระมัดระวัง: "),
       "ระบบไม่อนุมานว่าเอกสารยังใช้บังคับจากชื่อไฟล์ รายการที่ไม่มีหลักฐานยืนยันจะแสดงว่า “ยังไม่ตรวจยืนยัน”"),
     el("div", {class: "grid g4"},
@@ -213,6 +255,14 @@ async function initDashboard() {
       .map(([name, count]) => el("a", {class: "scope-item", href: `library.html?corpus=${encodeURIComponent(name)}`},
         el("strong", {}, count), el("span", {}, name)))),
     el("p", {class: "fine-print"}, `ปรับปรุงข้อมูลล่าสุด ${catalog.meta.generated || "—"} • ตัดสำเนาไฟล์ซ้ำด้วย SHA-256`)));
+}
+
+async function initMethodology() {
+  const target = $("#project-status");
+  if (!target) return;
+  const status = await getJSON("data/project-status.json").catch(() => null);
+  const view = projectStatusView(status, true);
+  if (view) target.append(view);
 }
 
 /* Library */
@@ -581,7 +631,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const initializers = {
     "index.html": initDashboard, "library.html": initLibrary, "instrument.html": initInstrument,
     "tracker.html": initTracker, "proposals.html": initProposals, "hierarchy.html": initHierarchy,
-    "opinions.html": initOpinions, "compare.html": initCompare
+    "opinions.html": initOpinions, "compare.html": initCompare, "methodology.html": initMethodology
   };
   const run = initializers[document.body.dataset.page];
   if (run) run().catch(error => $("#app").append(el("div", {class: "callout red", role: "alert"},
