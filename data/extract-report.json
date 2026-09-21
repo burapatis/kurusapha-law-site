@@ -1,12 +1,12 @@
 {
   "generated": "2026-09-21",
   "total": 187,
-  "fulltextDocs": 160,
-  "withoutFulltext": 27,
+  "fulltextDocs": 159,
+  "withoutFulltext": 28,
   "byTextSource": {
     "companion": 30,
     "none": 3,
-    "ocr": 47,
+    "ocr": 46,
     "pdf": 79,
     "txt": 1
   },

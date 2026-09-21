@@ -8,7 +8,7 @@
       "กฎหมายหลักการศึกษา"
     ],
     "count": 187,
-    "fulltextDocs": 160,
+    "fulltextDocs": 159,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,16 +40,16 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 144,
-      "in_force": 17,
+      "unverified": 141,
+      "in_force": 18,
       "amended": 9,
-      "repealed": 10,
+      "repealed": 12,
       "superseded": 6,
       "reference": 1
     },
     "verificationCounts": {
-      "unverified": 144,
-      "reviewed": 43
+      "unverified": 141,
+      "reviewed": 46
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -6139,7 +6139,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - อนุญาตประกอบวิชาชีพควบคุมโดยไม่มีใบอนุญาตชั่วคราว 2567.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2567,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -6159,27 +6159,76 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 19943
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานสำเนาราชกิจจานุเบกษาในคลังเทียบกับประกาศและระบบบริการปัจจุบันของคุรุสภา",
+      "statusBasis": "ประกาศในราชกิจจานุเบกษาเมื่อวันที่ 18 ธันวาคม 2567 และใช้บังคับเมื่อพ้นหกสิบวัน คือวันที่ 16 กุมภาพันธ์ 2568 โดยข้อ 3 ยกเลิกประกาศ พ.ศ. 2558 ทั้งฉบับฐานและฉบับแก้ไข ไม่พบฉบับแก้ไขหรือยกเลิกภายหลังในการตรวจครั้งนี้ และคุรุสภายังเปิดระบบบริการขอหนังสืออนุญาตตามประกาศนี้",
+      "officialUrl": "https://www.ksp.or.th/2025/01/02/53433/",
+      "gazette": "เล่ม 141 ตอนพิเศษ 348 ง วันที่ 18 ธันวาคม 2567 หน้า 76–82 และแบบแนบท้าย 3 หน้า",
+      "effectiveDate": "2025-02-16",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ บทเลิก คุณสมบัติ วิธีการยื่น ระยะเวลาอนุญาต เหตุสิ้นสุด และบทเฉพาะกาล รวมทั้งค้นหาฉบับแก้ไขหรือยกเลิกภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ราชกิจจานุเบกษาเผยแพร่ประกาศการอนุญาตชั่วคราว พ.ศ. 2567",
+          "url": "https://www.ksp.or.th/2025/01/02/53433/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: การขอหนังสืออนุญาตประกอบวิชาชีพควบคุมเป็นการชั่วคราว",
+          "url": "https://www.ksp.or.th/tmplicense/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "สำนักงานคณะกรรมการส่งเสริมการศึกษาเอกชน: แจ้งวันมีผลใช้บังคับ 16 กุมภาพันธ์ 2568",
+          "url": "https://opec.go.th/news/detail/2077",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "repeals",
+          "targetId": "doc-807acccb",
+          "label": "ยกเลิกประกาศฉบับฐาน พ.ศ. 2558",
+          "basis": "ข้อ 3 (1) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "repeals",
+          "targetId": "doc-e7774b85",
+          "label": "ยกเลิกประกาศแก้ไข พ.ศ. 2558",
+          "basis": "ข้อ 3 (2) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 10 (3) มาตรา 20 (1) และมาตรา 43 วรรคสอง (8)"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-616a1a43",
+          "label": "อ่านร่วมกับข้อบังคับใบอนุญาตประกอบวิชาชีพ พ.ศ. 2565 และฉบับแก้ไข",
+          "basis": "หนังสืออนุญาตชั่วคราวเป็นหลักฐานระหว่างการพัฒนาคุณสมบัติเพื่อขอรับใบอนุญาต"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ก-4",
+      "note": "ข้อ 11 อนุญาตได้ครั้งละไม่เกิน 2 ปี ผู้ได้รับอนุญาตต้องพัฒนาตนเพื่อให้มีคุณสมบัติขอรับใบอนุญาต; ข้อ 15 คุ้มครองหนังสืออนุญาตเดิมจนสิ้นระยะเวลาหรือสิ้นสุดตามเหตุที่กำหนด และข้อ 16 ให้คำขอที่ยื่นก่อนวันมีผลใช้บังคับดำเนินการต่อจนเสร็จตามหลักเกณฑ์เดิม; งดเผยแพร่ข้อความ OCR เพราะเลขปี เลขมาตรา และเลขข้อคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-7c19ae78",
@@ -7384,7 +7433,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - ยกเว้นใบอนุญาตประกอบวิชาชีพควบคุมชั่วคราว 2558.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2558,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -7404,23 +7453,60 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "local_reviewed",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
+      "status": "repealed",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานสำเนาราชกิจจานุเบกษาในคลังเทียบกับบทเลิกและบทเฉพาะกาลของประกาศ พ.ศ. 2567",
+      "statusBasis": "ประกาศฉบับฐานเคยใช้ร่วมกับฉบับแก้ไขลงวันที่ 10 กันยายน 2558 แต่ถูกข้อ 3 (1) ของประกาศ พ.ศ. 2567 ยกเลิกโดยชัดแจ้งเมื่อประกาศใหม่มีผลวันที่ 16 กุมภาพันธ์ 2568",
       "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "gazette": "เล่ม 132 ตอนพิเศษ 69 ง วันที่ 27 มีนาคม 2558 หน้า 7–11",
+      "effectiveDate": "2015-03-27",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ ขอบเขตผู้ได้รับยกเว้น ระยะเวลาอนุญาต ฉบับแก้ไข และบทเลิกตามประกาศ พ.ศ. 2567 รวมทั้งบทเฉพาะกาล ณ วันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: รายการกฎหมายด้านใบอนุญาตประกอบวิชาชีพ",
+          "url": "https://www.ksp.or.th/laws/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ประกาศ พ.ศ. 2567 ซึ่งยกเลิกฉบับนี้",
+          "url": "https://www.ksp.or.th/2025/01/02/53433/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amended_by",
+          "targetId": "doc-e7774b85",
+          "label": "แก้ไขข้อ 7 โดยประกาศลงวันที่ 10 กันยายน 2558",
+          "basis": "ฉบับแก้ไขแทนที่ความในข้อ 7 เรื่องการอนุญาตผู้บริหารสถานศึกษา"
+        },
+        {
+          "type": "repealed_by",
+          "targetId": "doc-bec2d027",
+          "label": "ยกเลิกโดยประกาศ พ.ศ. 2567",
+          "basis": "ข้อ 3 (1) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 20 และมาตรา 43 (8)"
+        }
+      ],
+      "reformStatus": "repeal",
+      "reformCode": "ก-4",
+      "note": "การยกเลิกไม่ตัดสิทธิของหนังสืออนุญาตเดิมทันที: ข้อ 15 ของประกาศ พ.ศ. 2567 ให้ใช้ต่อได้จนสิ้นระยะเวลาหรือสิ้นสุดตามเหตุที่กำหนด และข้อ 16 ให้คำขอเดิมดำเนินการตามหลักเกณฑ์เดิมจนแล้วเสร็จ",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
@@ -7432,7 +7518,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - แก้ไขการยกเว้นใบอนุญาตวิชาชีพควบคุมชั่วคราว 2558.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2558,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -7452,23 +7538,60 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "status": "repealed",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานสำเนาราชกิจจานุเบกษาในคลังเทียบกับหอสมุดคุรุสภาและบทเลิกในประกาศ พ.ศ. 2567",
+      "statusBasis": "ฉบับนี้เคยแทนที่ข้อ 7 ของประกาศลงวันที่ 25 กุมภาพันธ์ 2558 แต่ถูกข้อ 3 (2) ของประกาศ พ.ศ. 2567 ยกเลิกโดยชัดแจ้งเมื่อประกาศใหม่มีผลวันที่ 16 กุมภาพันธ์ 2568",
+      "officialUrl": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5579",
+      "gazette": "เล่ม 132 ตอนพิเศษ 260 ง วันที่ 20 ตุลาคม 2558 หน้า 44",
+      "effectiveDate": "2015-10-20",
+      "reviewScope": "ตรวจชื่อฉบับ วันประกาศ วันใช้บังคับ ข้อ 7 ที่แก้ไข และบทเลิกตามประกาศ พ.ศ. 2567 รวมทั้งบทเฉพาะกาล ณ วันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: ประกาศแก้ไขเรื่องผู้ได้รับยกเว้นใบอนุญาตชั่วคราว พ.ศ. 2558",
+          "url": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5579",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ประกาศ พ.ศ. 2567 ซึ่งยกเลิกฉบับนี้",
+          "url": "https://www.ksp.or.th/2025/01/02/53433/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-807acccb",
+          "label": "แก้ไขข้อ 7 ของประกาศฉบับฐาน พ.ศ. 2558",
+          "basis": "แทนที่ข้อ 7 ให้ต่อการอนุญาตผู้บริหารสถานศึกษาได้อีกครั้งไม่เกิน 2 ปีเป็นรายกรณี"
+        },
+        {
+          "type": "repealed_by",
+          "targetId": "doc-bec2d027",
+          "label": "ยกเลิกโดยประกาศ พ.ศ. 2567",
+          "basis": "ข้อ 3 (2) ยกเลิกโดยชัดแจ้ง"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 20 และมาตรา 43 (8)"
+        }
+      ],
+      "reformStatus": "repeal",
+      "reformCode": "ก-4",
+      "note": "ผลของข้อ 7 เดิมยังอาจเกี่ยวข้องกับหนังสืออนุญาตหรือคำขอที่อยู่ในบทเฉพาะกาลข้อ 15–16 ของประกาศ พ.ศ. 2567 จึงต้องตรวจวันยื่นคำขอและวันสิ้นสุดหนังสืออนุญาตเป็นรายกรณี",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",

@@ -13,16 +13,16 @@
   },
   "byStatus": {
     "amended": 9,
-    "in_force": 17,
+    "in_force": 18,
     "reference": 1,
-    "repealed": 10,
+    "repealed": 12,
     "superseded": 6,
-    "unverified": 144
+    "unverified": 141
   },
   "byVerification": {
-    "reviewed": 43,
-    "unverified": 144
+    "reviewed": 46,
+    "unverified": 141
   },
-  "fulltextDocs": 160,
+  "fulltextDocs": 159,
   "deduplicatedCopies": 4
 }
