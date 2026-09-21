@@ -8,7 +8,7 @@
       "กฎหมายหลักการศึกษา"
     ],
     "count": 185,
-    "fulltextDocs": 155,
+    "fulltextDocs": 152,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,16 +40,16 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 136,
-      "in_force": 20,
-      "amended": 10,
+      "unverified": 131,
+      "in_force": 23,
+      "amended": 11,
       "repealed": 12,
       "superseded": 6,
-      "reference": 1
+      "reference": 2
     },
     "verificationCounts": {
-      "unverified": 136,
-      "reviewed": 49
+      "unverified": 131,
+      "reviewed": 54
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -2307,27 +2307,64 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "amend",
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานตัวบททั้งฉบับ เทียบไฟล์กับ PDF ที่คุรุสภาเผยแพร่ และตรวจมติคณะรัฐมนตรีที่เป็นที่มา",
+      "statusBasis": "ข้อ 2 กำหนดให้ใช้บังคับตั้งแต่วันถัดจากวันประกาศ คือวันที่ 16 กรกฎาคม 2569 และเพิ่มข้อ 9/1 ในฉบับฐาน; ไม่พบฉบับแก้ไขหรือยกเลิกภายหลังในการตรวจครั้งนี้",
+      "officialUrl": "https://www.ksp.or.th/wp-content/uploads/2026/07/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B8%9A-%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%AB.pdf",
+      "gazette": "เล่ม 143 ตอนพิเศษ 174 ง วันที่ 15 กรกฎาคม 2569 หน้า 31",
+      "effectiveDate": "2026-07-16",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ หลักเกณฑ์ประเมินการดำรงตำแหน่งวาระที่สอง กรอบ 30 วัน และทางกลับไปสู่การสรรหาใหม่ รวมทั้งค้นหาฉบับแก้ไขหรือยกเลิกภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษา 1 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "PDF ทางการที่คุรุสภาเผยแพร่ (ค่า SHA-256 ตรงกับสำเนาในคลัง)",
+          "url": "https://www.ksp.or.th/wp-content/uploads/2026/07/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B8%9A-%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%AB.pdf",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "มติคณะรัฐมนตรีวันที่ 19 พฤษภาคม 2569: ปรับปรุงหลักเกณฑ์การสรรหาผู้อำนวยการองค์การมหาชน",
+          "url": "https://gnews2026.gcc.go.th/%E0%B8%A1%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5-%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-19-%E0%B8%9E/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-46b87de9",
+          "label": "เพิ่มเติมข้อบังคับฉบับฐาน พ.ศ. 2547",
+          "basis": "เพิ่มข้อ 9/1 เรื่องการประเมินเพื่อแต่งตั้งเลขาธิการในวาระที่สอง"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-f6565ce7",
+          "label": "อ่านร่วมกับองค์ประกอบคณะอนุกรรมการและขั้นตอนตามฉบับที่ 3 พ.ศ. 2565",
+          "basis": "ใช้คณะอนุกรรมการตามข้อ 5 ที่แก้ไขแล้วดำเนินการประเมิน และหากต่อวาระไม่ได้ให้กลับไปสรรหาตามข้อ 6–8"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 9 (11) (ฌ) มาตรา 20 (1) และ (8) และมาตรา 35"
+        }
+      ],
+      "reformStatus": "done",
       "reformCode": "ก-5",
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 1931
+      "note": "หากคณะกรรมการเห็นสมควรต่อวาระ ต้องประเมินผลการดำเนินงาน แนวทางขับเคลื่อนงานในอนาคต และประโยชน์ของการต่อวาระ พร้อมเสนอผลให้เสร็จก่อนครบวาระ 30 วัน; หากทำสัญญาต่อเนื่องจากวาระแรกไม่ได้ ต้องสรรหาใหม่ตามข้อ 6–8; งดเผยแพร่ OCR เพราะอ่านเลขปี เลขมาตรา และเลขข้อคลาดเคลื่อนอย่างมีนัยสำคัญ",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-b482076a",
@@ -3009,23 +3046,54 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "amend",
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานตัวบทครบทั้ง 2 หน้า เทียบกับหอสมุดคุรุสภา และตรวจฉบับที่ 4 พ.ศ. 2569",
+      "statusBasis": "ใช้บังคับตั้งแต่วันถัดจากวันประกาศ และแทนที่ข้อ 5 กับข้อ 8 ของฉบับฐาน; ฉบับที่ 4 พ.ศ. 2569 เพิ่มข้อ 9/1 โดยไม่ได้แทนที่ข้อความของฉบับนี้ จึงยังใช้บังคับร่วมกัน",
+      "officialUrl": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5494",
+      "gazette": "เล่ม 139 ตอนพิเศษ 113 ง วันที่ 20 พฤษภาคม 2565 หน้า 17–18",
+      "effectiveDate": "2022-05-21",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ องค์ประกอบคณะอนุกรรมการตามข้อ 5 บัญชีผู้ผ่านการสรรหาตามข้อ 8 และผลของฉบับที่ 4 พ.ศ. 2569 ถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษา 2 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: ข้อบังคับสรรหาเลขาธิการคุรุสภา (ฉบับที่ 3) พ.ศ. 2565",
+          "url": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5494",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-46b87de9",
+          "label": "แก้ไขข้อบังคับฉบับฐาน พ.ศ. 2547",
+          "basis": "แทนที่ข้อ 5 และข้อ 8"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-74dc4579",
+          "label": "อ่านร่วมกับฉบับที่ 4 พ.ศ. 2569",
+          "basis": "ฉบับที่ 4 เพิ่มข้อ 9/1 เรื่องการประเมินเพื่อต่อวาระโดยไม่กระทบข้อ 5 และข้อ 8 ที่แก้โดยฉบับนี้"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 9 (11) (ฌ) มาตรา 20 (1) และ (8) และมาตรา 35"
+        }
+      ],
+      "reformStatus": "done",
       "reformCode": "ก-5",
-      "note": null,
+      "note": "คณะอนุกรรมการประกอบด้วยประธานจากรองปลัดกระทรวงศึกษาธิการหรือเทียบเท่า กรรมการคุรุสภา 2 คน และผู้ทรงคุณวุฒิด้านการฝึกหัดครูกับผู้ประกอบวิชาชีพทางการศึกษา 2 คน; เสนอผู้ผ่านการสรรหาไม่เกิน 3 คนเรียงตามลำดับอักษร",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
@@ -3877,23 +3945,48 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "amend",
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานตัวบทครบทั้งฉบับ เทียบกับหอสมุดคุรุสภา และตรวจฉบับแก้ไขภายหลัง",
+      "statusBasis": "ใช้บังคับตั้งแต่วันถัดจากวันประกาศในราชกิจจานุเบกษา และกำหนดประสบการณ์ด้านการสอน การบริหารสถานศึกษา การบริหารการศึกษา หรือบุคลากรทางการศึกษาอื่นรวมกันไม่น้อยกว่า 10 ปี; ไม่พบฉบับภายหลังที่แทนที่ข้อความนี้",
+      "officialUrl": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5493",
+      "gazette": "เล่ม 127 ตอนพิเศษ 149 ง วันที่ 27 ธันวาคม 2553 หน้า 62",
+      "effectiveDate": "2010-12-28",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ ข้อความที่แทนที่ในข้อ 4 (ก) (3.3) และตรวจฉบับแก้ไขภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษา 1 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: ข้อบังคับสรรหาเลขาธิการคุรุสภา (ฉบับที่ 2) พ.ศ. 2553",
+          "url": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5493",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-46b87de9",
+          "label": "แก้ไขข้อบังคับฉบับฐาน พ.ศ. 2547",
+          "basis": "แทนที่ข้อ 4 (ก) (3.3) เรื่องประสบการณ์ไม่น้อยกว่า 10 ปี"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 9 (11) (ฌ) มาตรา 20 (1) และ (8) และมาตรา 35"
+        }
+      ],
+      "reformStatus": "done",
       "reformCode": "ก-5",
-      "note": null,
+      "note": "ฉบับนี้แก้เฉพาะเกณฑ์ประสบการณ์ในข้อ 4 (ก) (3.3); ข้ออื่นต้องอ่านจากฉบับฐานและฉบับแก้ไขที่เกี่ยวข้อง",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
@@ -4192,27 +4285,70 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "amend",
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานตัวบทครบทุกหน้า เทียบกับหอสมุดคุรุสภา และอ่านร่วมกับฉบับแก้ไขที่ 2–4",
+      "statusBasis": "ข้อบังคับฉบับฐานยังเป็นโครงหลักของการสรรหาเลขาธิการคุรุสภา แต่ข้อ 4 (ก) (3.3) ถูกแก้โดยฉบับที่ 2 ข้อ 5 และข้อ 8 ถูกแก้โดยฉบับที่ 3 และเพิ่มข้อ 9/1 โดยฉบับที่ 4 จึงต้องอ่านฉบับฐานร่วมกับฉบับแก้ไขทั้งหมด",
+      "officialUrl": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5492",
+      "gazette": "เล่ม 121 ตอนพิเศษ 56 ง วันที่ 17 พฤษภาคม 2547 หน้า 30–33",
+      "effectiveDate": "2004-05-17",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ คุณสมบัติและลักษณะต้องห้าม องค์ประกอบคณะอนุกรรมการ ขั้นตอนสรรหา และผลของฉบับแก้ไขที่ 2 พ.ศ. 2553 ฉบับที่ 3 พ.ศ. 2565 และฉบับที่ 4 พ.ศ. 2569 ถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษา 4 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: ข้อบังคับสรรหาเลขาธิการคุรุสภา พ.ศ. 2547",
+          "url": "https://elibrary.ksp.or.th/doc_num.php?explnum_id=5492",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: อำนาจหน้าที่ตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา",
+          "url": "https://www.ksp.or.th/objectives/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 9 (11) (ฌ) มาตรา 20 (1) และ (8) และมาตรา 35"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-e8c30304",
+          "label": "แก้คุณสมบัติประสบการณ์โดยฉบับที่ 2 พ.ศ. 2553",
+          "basis": "แทนที่ข้อ 4 (ก) (3.3)"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-f6565ce7",
+          "label": "แก้องค์ประกอบและบัญชีผู้ผ่านการสรรหาโดยฉบับที่ 3 พ.ศ. 2565",
+          "basis": "แทนที่ข้อ 5 และข้อ 8"
+        },
+        {
+          "type": "amended_by",
+          "targetId": "doc-74dc4579",
+          "label": "เพิ่มกระบวนการประเมินเพื่อต่อวาระโดยฉบับที่ 4 พ.ศ. 2569",
+          "basis": "เพิ่มข้อ 9/1"
+        }
+      ],
+      "reformStatus": "done",
       "reformCode": "ก-5",
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 4536
+      "note": "ฉบับฐานกำหนดคุณสมบัติ อายุ 35–65 ปี วุฒิไม่ต่ำกว่าปริญญาโท และกระบวนการรับสมัคร–เสนอรายชื่อ–คัดเลือก; ข้อความ OCR เดิมอ่านเลขปี เลขมาตรา และเลขข้อผิดหลายแห่ง จึงงดเผยแพร่ข้อความ OCR และใช้ไฟล์ภาพต้นฉบับเป็นหลัก",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-f909b3f9",
@@ -5087,6 +5223,91 @@
       "textChars": 20288
     },
     {
+      "id": "doc-5f98bafe",
+      "title": "ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2569 พร้อมแบบสมัคร",
+      "file": "05_ประกาศ/ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2569 พร้อมแบบสมัคร.pdf",
+      "category": "ประกาศ",
+      "type": "ประกาศ",
+      "issuer": "รัฐมนตรีว่าการกระทรวงศึกษาธิการ โดยความเห็นชอบของคณะกรรมการคุรุสภา",
+      "year": 2569,
+      "ext": "pdf",
+      "sourceCorpus": "กฎหมายคุรุสภา",
+      "sourceCorpora": [
+        "กฎหมายคุรุสภา"
+      ],
+      "sources": [
+        {
+          "corpus": "กฎหมายคุรุสภา",
+          "path": "05_ประกาศ/ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2569 พร้อมแบบสมัคร.pdf",
+          "ext": "pdf",
+          "sha256": "92a804470ce9187ae939c1bab9f0d253fc809f8a001db57371dfe4d7db056eb4",
+          "bytes": 534158
+        }
+      ],
+      "isKurusapha": true,
+      "isDeliverable": false,
+      "audience": "public",
+      "localCopyAvailable": true,
+      "evidenceLevel": "official_online",
+      "publicCopyUrl": null,
+      "status": "reference",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานประกาศและแบบสมัครครบทั้ง 10 หน้า และเทียบไฟล์กับ PDF ที่คุรุสภาเผยแพร่",
+      "statusBasis": "เป็นประกาศดำเนินการสรรหาเฉพาะรอบ พ.ศ. 2569 มิใช่ข้อบังคับทั่วไปถาวร และช่วงรับสมัครสิ้นสุดวันที่ 20 กันยายน 2569 จึงจัดเป็นเอกสารอ้างอิงของกระบวนการสรรหารอบนี้ ไม่จัดเป็นกฎหมายที่ใช้บังคับทั่วไป",
+      "officialUrl": "https://www.ksp.or.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B9%8C-.pdf",
+      "gazette": null,
+      "effectiveDate": "2026-09-02",
+      "reviewScope": "ตรวจฐานอำนาจ วันประกาศ การยกเลิกประกาศรอบก่อน องค์ประกอบคณะอนุกรรมการ คุณสมบัติ วาระและค่าตอบแทน เอกสารสมัคร ช่วงรับสมัคร 7–20 กันยายน 2569 วิธีคัดเลือก เกณฑ์คะแนน การเสนอชื่อ และแบบสมัครครบทั้ง 10 หน้า",
+      "reviewSources": [
+        {
+          "label": "สำเนาประกาศและแบบสมัคร 10 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "PDF ทางการที่คุรุสภาเผยแพร่ (ค่า SHA-256 ตรงกับสำเนาในคลัง)",
+          "url": "https://www.ksp.or.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B9%8C-.pdf",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "issued_under",
+          "targetId": "doc-bacc25b6",
+          "label": "ดำเนินการตามคำสั่งหัวหน้า คสช. ที่ 7/2558",
+          "basis": "อาศัยข้อ 6 วรรคสามในการแต่งตั้งคณะอนุกรรมการและดำเนินการสรรหา"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-b84ef957",
+          "label": "อ่านร่วมกับคำสั่งหัวหน้า คสช. ที่ 17/2560",
+          "basis": "คำสั่งที่ 17/2560 แก้ไขเพิ่มเติมคำสั่งที่ 7/2558 ซึ่งเป็นฐานอำนาจของประกาศ"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-46b87de9",
+          "label": "อ่านร่วมกับข้อบังคับสรรหาเลขาธิการคุรุสภา พ.ศ. 2547 และฉบับแก้ไข",
+          "basis": "ประกาศกำหนดรายละเอียดการสรรหาเฉพาะรอบบนโครงคุณสมบัติและกระบวนการตามกฎหมายคุรุสภา"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-74dc4579",
+          "label": "อ่านร่วมกับฉบับที่ 4 พ.ศ. 2569",
+          "basis": "ประกาศรอบนี้ออกภายหลังฉบับที่ 4 มีผลใช้บังคับ และเป็นการสรรหาใหม่แทนการต่อวาระ"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ก-5",
+      "note": "ประกาศลงวันที่ 2 กันยายน 2569 ยกเลิกประกาศกระทรวงศึกษาธิการลงวันที่ 20 กรกฎาคม 2565 สำหรับรอบเดิม รับสมัคร 7–20 กันยายน 2569 และให้คณะอนุกรรมการเสนอผู้เหมาะสมไม่เกิน 3 รายชื่อ; ชื่อไฟล์เดิมระบุปี 2568 ผิด จึงแก้เป็นปี 2569; งดเผยแพร่ OCR เพราะอ่านวันที่ ตัวเลข และข้อความในแบบสมัครคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
+    },
+    {
       "id": "doc-233da910",
       "title": "ประกาศคุรุสภา - จ่ายเงินสมทบให้สมาชิกกองทุนบำเหน็จพนักงานเจ้าหน้าที่ 2569",
       "file": "05_ประกาศ/ประกาศคุรุสภา - จ่ายเงินสมทบให้สมาชิกกองทุนบำเหน็จพนักงานเจ้าหน้าที่ 2569.pdf",
@@ -5398,54 +5619,6 @@
       "publicFulltext": true,
       "textSource": "ocr",
       "textChars": 2839
-    },
-    {
-      "id": "doc-c4828442",
-      "title": "ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2568 พร้อมแบบสมัคร",
-      "file": "05_ประกาศ/ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2568 พร้อมแบบสมัคร.pdf",
-      "category": "ประกาศ",
-      "type": "ประกาศ",
-      "issuer": "กระทรวงศึกษาธิการ",
-      "year": 2568,
-      "ext": "pdf",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "05_ประกาศ/ประกาศกระทรวงศึกษาธิการ - หลักเกณฑ์สรรหาเลขาธิการคุรุสภา 2568 พร้อมแบบสมัคร.pdf",
-          "ext": "pdf",
-          "sha256": "92a804470ce9187ae939c1bab9f0d253fc809f8a001db57371dfe4d7db056eb4",
-          "bytes": 534158
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": "amend",
-      "reformCode": "ก-5",
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 17012
     },
     {
       "id": "doc-cfc5cd2b",
