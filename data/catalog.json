@@ -7,8 +7,8 @@
       "กฎหมายหลัก",
       "กฎหมายหลักการศึกษา"
     ],
-    "count": 186,
-    "fulltextDocs": 157,
+    "count": 185,
+    "fulltextDocs": 155,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,16 +40,16 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 138,
-      "in_force": 19,
+      "unverified": 136,
+      "in_force": 20,
       "amended": 10,
       "repealed": 12,
       "superseded": 6,
       "reference": 1
     },
     "verificationCounts": {
-      "unverified": 138,
-      "reviewed": 48
+      "unverified": 136,
+      "reviewed": 49
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -8316,60 +8316,12 @@
       "textChars": null
     },
     {
-      "id": "doc-58c530d5",
-      "title": "ระเบียบสำนักงานคุรุสภา - พัฒนาผู้บริหารสถานศึกษา 2568 พร้อมเอกสารแนบ 45 หน้า",
-      "file": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - พัฒนาผู้บริหารสถานศึกษา 2568 พร้อมเอกสารแนบ 45 หน้า.pdf",
-      "category": "ระเบียบ",
-      "type": "ระเบียบ",
-      "issuer": "สำนักงานเลขาธิการคุรุสภา",
-      "year": 2568,
-      "ext": "pdf",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - พัฒนาผู้บริหารสถานศึกษา 2568 พร้อมเอกสารแนบ 45 หน้า.pdf",
-          "ext": "pdf",
-          "sha256": "2668fd8c110f999ddc80112ee9772dca97653a2a690a38d5cb1183ce8e0ac770",
-          "bytes": 333639
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "pdf",
-      "textChars": 48314
-    },
-    {
       "id": "doc-8278ebdb",
       "title": "ระเบียบสำนักงานคุรุสภา - พัฒนาผู้บริหารสถานศึกษา 2568 พร้อมเอกสารแนบ 55 หน้า",
       "file": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - พัฒนาผู้บริหารสถานศึกษา 2568 พร้อมเอกสารแนบ 55 หน้า.pdf",
       "category": "ระเบียบ",
       "type": "ระเบียบ",
-      "issuer": "สำนักงานเลขาธิการคุรุสภา",
+      "issuer": "เลขาธิการคุรุสภา",
       "year": 2568,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -8389,27 +8341,70 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 15609
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานตัวระเบียบและเอกสารแนบท้ายทุกหน้า เทียบไฟล์กับสำเนาที่สำนักงานเลขาธิการคุรุสภาเผยแพร่ และค้นหาฉบับแก้ไขหรือยกเลิกภายหลัง",
+      "statusBasis": "ข้อ 2 กำหนดให้ใช้บังคับตั้งแต่วันประกาศในราชกิจจานุเบกษา คือวันที่ 10 ตุลาคม 2568 และไม่พบระเบียบแก้ไขหรือยกเลิกภายหลังในการตรวจครั้งนี้; คุรุสภายังคงเผยแพร่ตัวระเบียบและหลักสูตรฉบับนี้เป็นเอกสารทางการ",
+      "officialUrl": "https://www.ksp.or.th/2025/11/04/59474/",
+      "gazette": "เล่ม 142 ตอนพิเศษ 330 ง วันที่ 10 ตุลาคม 2568 หน้า 1–2",
+      "effectiveDate": "2025-10-10",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ กลุ่มผู้ต้องเข้ารับการพัฒนา โครงสร้างหลักสูตร 5 หน่วยการเรียนรู้ 60 ชั่วโมง ค่าลงทะเบียน และสถานะถึงวันที่ 21 กันยายน 2569; ตรวจครบทั้ง 55 หน้าและยืนยันค่า SHA-256 ตรงกับไฟล์ที่คุรุสภาเผยแพร่",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาและเอกสารแนบท้าย 55 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ระเบียบหลักสูตรพัฒนาสมรรถนะวิชาชีพผู้บริหารสถานศึกษา พ.ศ. 2568",
+          "url": "https://www.ksp.or.th/2025/11/04/59474/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "ไฟล์ PDF ทางการที่คุรุสภาเผยแพร่ (ตรงกับสำเนาในคลัง)",
+          "url": "https://www.ksp.or.th/wp-content/uploads/2025/11/890191.pdf",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: มติคณะกรรมการคุรุสภา ครั้งที่ 5/2568",
+          "url": "https://www.ksp.or.th/2025/05/26/57181/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 10 (3)"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-8f55babb",
+          "label": "ดำเนินการตามมาตรฐานวิชาชีพ (ฉบับที่ 6) พ.ศ. 2567",
+          "basis": "กำหนดหลักสูตรสำหรับบุคคลตามข้อ 7 (ข) (3) ของข้อบังคับมาตรฐานวิชาชีพที่แก้ไขแล้ว"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-dfe7f088",
+          "label": "อ่านร่วมกับข้อบังคับมาตรฐานวิชาชีพ พ.ศ. 2556",
+          "basis": "ข้อ 3 ของระเบียบอ้างเกณฑ์ประสบการณ์ตามข้อ 7 ของฉบับฐานซึ่งแก้ไขโดยฉบับที่ 6"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ก-4",
+      "note": "ใช้กับผู้ขอรับใบอนุญาตประกอบวิชาชีพผู้บริหารสถานศึกษาซึ่งมีประสบการณ์ในตำแหน่งหัวหน้างานหรือตำแหน่งบริหารอื่นในหน่วยงานการศึกษามาแล้วไม่น้อยกว่า 2 ปีตามเกณฑ์ที่อ้าง; หลักสูตรออนไลน์มี 5 หน่วยการเรียนรู้ หน่วยละ 12 ชั่วโมง รวม 60 ชั่วโมง และค่าลงทะเบียนหน่วยละ 640 บาท รวม 3,200 บาท โดยไม่คืนค่าลงทะเบียน; งดเผยแพร่ข้อความ OCR เพราะอ่านเลขปี เลขมาตรา ชั่วโมง และค่าลงทะเบียนคลาดเคลื่อนจากต้นฉบับ",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-8fcac4a9",
