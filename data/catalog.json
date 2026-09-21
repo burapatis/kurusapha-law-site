@@ -7,8 +7,8 @@
       "กฎหมายหลัก",
       "กฎหมายหลักการศึกษา"
     ],
-    "count": 185,
-    "fulltextDocs": 152,
+    "count": 183,
+    "fulltextDocs": 150,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,16 +40,16 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 131,
-      "in_force": 23,
+      "unverified": 128,
+      "in_force": 24,
       "amended": 11,
       "repealed": 12,
       "superseded": 6,
       "reference": 2
     },
     "verificationCounts": {
-      "unverified": 131,
-      "reviewed": 54
+      "unverified": 128,
+      "reviewed": 55
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -2069,54 +2069,6 @@
       "publicFulltext": true,
       "textSource": "none",
       "textChars": 195
-    },
-    {
-      "id": "doc-61140c93",
-      "title": "รายละเอียดมาตรฐานความรู้และประสบการณ์ครู 2563 ข้อความเฉพาะหัวกระดาษ",
-      "file": "11_ข้อความประกอบเอกสาร/รายละเอียดมาตรฐานความรู้และประสบการณ์ครู 2563 ข้อความเฉพาะหัวกระดาษ.txt",
-      "category": "ข้อความประกอบ",
-      "type": "อื่น ๆ",
-      "issuer": "ไม่ระบุ",
-      "year": 2563,
-      "ext": "txt",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "11_ข้อความประกอบเอกสาร/รายละเอียดมาตรฐานความรู้และประสบการณ์ครู 2563 ข้อความเฉพาะหัวกระดาษ.txt",
-          "ext": "txt",
-          "sha256": "67df7ba21b6747fc20d4bb7beec65aa0696ac127830724068c9908514e59e46e",
-          "bytes": 910
-        }
-      ],
-      "isKurusapha": false,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "none",
-      "textChars": 330
     },
     {
       "id": "doc-b5cef7f7",
@@ -7316,7 +7268,7 @@
       "file": "05_ประกาศ/ประกาศคุรุสภา - รายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู 2563.pdf",
       "category": "ประกาศ",
       "type": "ประกาศ",
-      "issuer": "คุรุสภา",
+      "issuer": "คณะกรรมการคุรุสภา",
       "year": 2563,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -7336,71 +7288,60 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "pdf",
-      "textChars": 6191
-    },
-    {
-      "id": "doc-33e21333",
-      "title": "ประกาศคุรุสภา - รายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู 2563 (ไฟล์อีกฉบับ 02)",
-      "file": "05_ประกาศ/ประกาศคุรุสภา - รายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู 2563 (ไฟล์อีกฉบับ 02).pdf",
-      "category": "ประกาศ",
-      "type": "ประกาศ",
-      "issuer": "คุรุสภา",
-      "year": 2563,
-      "ext": "pdf",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานต้นฉบับครบทั้ง 5 หน้า เทียบค่า SHA-256 กับ PDF ราชกิจจานุเบกษา และตรวจสายข้อบังคับมาตรฐานวิชาชีพถึงฉบับที่ 6 พ.ศ. 2567",
+      "statusBasis": "ข้อ 1 กำหนดให้ใช้บังคับตั้งแต่วันถัดจากวันประกาศในราชกิจจานุเบกษา คือวันที่ 8 พฤษภาคม 2563 และข้อ 2 ยกเลิกเฉพาะหมวด 1 ผู้ประกอบวิชาชีพครูของประกาศ พ.ศ. 2556; ข้อบังคับมาตรฐานวิชาชีพฉบับที่ 6 พ.ศ. 2567 แก้ข้อ 5 ข้อ 7 (ข) และข้อ 9 (ข) แต่ไม่ได้แทนที่ข้อ 6 หรือข้อ 10 ซึ่งเป็นฐานของประกาศนี้ และไม่พบประกาศภายหลังที่ยกเลิกหรือแทนที่รายละเอียดมาตรฐานทั่วไปฉบับนี้",
+      "officialUrl": "https://ratchakitcha.soc.go.th/documents/17130946.pdf",
+      "gazette": "เล่ม 137 ตอนพิเศษ 109 ง วันที่ 7 พฤษภาคม 2563 หน้า 10–14",
+      "effectiveDate": "2020-05-08",
+      "reviewScope": "ตรวจชื่อฉบับ ฐานอำนาจ วันออก วันประกาศ วันใช้บังคับ รายละเอียดมาตรฐานความรู้ 6 ด้าน มาตรฐานประสบการณ์วิชาชีพ บทที่ยกเลิกประกาศเดิม และค้นหาฉบับแก้ไขหรือยกเลิกภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
         {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "05_ประกาศ/ประกาศคุรุสภา - รายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู 2563 (ไฟล์อีกฉบับ 02).pdf",
-          "ext": "pdf",
-          "sha256": "1cfad24ae893032637f42cf5dd97b88b617bbe388333cd7a0414918e9b1b9c72",
-          "bytes": 94810
+          "label": "สำเนาราชกิจจานุเบกษา 5 หน้าในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "ราชกิจจานุเบกษา: ประกาศรายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู (ค่า SHA-256 ตรงกับสำเนาในคลัง)",
+          "url": "https://ratchakitcha.soc.go.th/documents/17130946.pdf",
+          "type": "official_gazette",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "หอสมุดคุรุสภา: รายการประกาศและสำเนาอิเล็กทรอนิกส์",
+          "url": "https://elibrary.ksp.or.th/index.php?id=24185&lvl=notice_display",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
         }
       ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "legalRelations": [
+        {
+          "type": "issued_under",
+          "targetId": "doc-6d2f5d79",
+          "label": "ออกตามข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 4) พ.ศ. 2562",
+          "basis": "อาศัยข้อ 6 และข้อ 10 ของฉบับฐานซึ่งแก้ไขโดยฉบับที่ 4 เพื่อกำหนดรายละเอียดมาตรฐานความรู้และประสบการณ์วิชาชีพครู"
+        },
+        {
+          "type": "amends",
+          "targetId": "doc-20f2dc34",
+          "label": "แทนที่เฉพาะหมวด 1 ผู้ประกอบวิชาชีพครูของประกาศ พ.ศ. 2556",
+          "basis": "ข้อ 2 ยกเลิกความในหมวด 1 ของประกาศสาระความรู้ สมรรถนะและประสบการณ์วิชาชีพทางการศึกษา พ.ศ. 2556; ส่วนของวิชาชีพอื่นมิได้ถูกยกเลิกด้วยข้อนี้"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-8f55babb",
+          "label": "ตรวจผลร่วมกับข้อบังคับมาตรฐานวิชาชีพ (ฉบับที่ 6) พ.ศ. 2567",
+          "basis": "ฉบับที่ 6 แก้ข้อ 5 ข้อ 7 (ข) และข้อ 9 (ข) ของฉบับฐาน ซึ่งไม่ใช่ข้อ 6 และข้อ 10 ที่เป็นฐานของประกาศนี้ จึงไม่ทำให้ประกาศนี้สิ้นผล"
+        }
+      ],
+      "reformStatus": "amend",
+      "reformCode": "ข-3",
+      "note": "ประกาศกำหนดมาตรฐานความรู้ 6 ด้านและมาตรฐานประสบการณ์วิชาชีพครู; ชื่อที่อ้างฉบับที่ 4 พ.ศ. 2562 เป็นชื่อและฐานอำนาจ ณ วันที่ออกประกาศ จึงไม่ต้องแก้ชื่อให้เป็นฉบับที่ 6; หากจะปรับปรุงควรมุ่งทบทวนเนื้อหาสาระให้ทันต่อวิชาชีพ ไม่ใช่แก้เพียงเลขฉบับอ้างอิง; ลบไฟล์สำเนาซ้ำที่ภาพและข้อความตรงกันทุกหน้าแล้ว โดยเก็บไฟล์ที่ค่า SHA-256 ตรงกับราชกิจจานุเบกษา",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",

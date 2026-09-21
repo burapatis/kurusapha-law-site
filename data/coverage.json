@@ -1,28 +1,28 @@
 {
   "generated": "2026-09-21",
-  "total": 185,
+  "total": 183,
   "byExtension": {
     "jpg": 1,
-    "pdf": 180,
-    "txt": 4
+    "pdf": 179,
+    "txt": 3
   },
   "byCorpus": {
-    "กฎหมายคุรุสภา": 145,
+    "กฎหมายคุรุสภา": 143,
     "กฎหมายหลัก": 29,
     "กฎหมายหลักการศึกษา": 15
   },
   "byStatus": {
     "amended": 11,
-    "in_force": 23,
+    "in_force": 24,
     "reference": 2,
     "repealed": 12,
     "superseded": 6,
-    "unverified": 131
+    "unverified": 128
   },
   "byVerification": {
-    "reviewed": 54,
-    "unverified": 131
+    "reviewed": 55,
+    "unverified": 128
   },
-  "fulltextDocs": 152,
+  "fulltextDocs": 150,
   "deduplicatedCopies": 4
 }
