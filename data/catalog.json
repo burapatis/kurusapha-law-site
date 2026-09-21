@@ -7,8 +7,8 @@
       "กฎหมายหลัก",
       "กฎหมายหลักการศึกษา"
     ],
-    "count": 187,
-    "fulltextDocs": 159,
+    "count": 186,
+    "fulltextDocs": 157,
     "categories": [
       "กฎกระทรวง",
       "กฎหมายหลัก",
@@ -40,16 +40,16 @@
       "อื่น ๆ"
     ],
     "statusCounts": {
-      "unverified": 141,
-      "in_force": 18,
-      "amended": 9,
+      "unverified": 138,
+      "in_force": 19,
+      "amended": 10,
       "repealed": 12,
       "superseded": 6,
       "reference": 1
     },
     "verificationCounts": {
-      "unverified": 141,
-      "reviewed": 46
+      "unverified": 138,
+      "reviewed": 48
     },
     "note": "สถานะเริ่มต้นเป็น 'ยังไม่ตรวจยืนยัน'; ชื่อไฟล์และโฟลเดอร์ใช้สร้างเมทาดาทาเบื้องต้นเท่านั้น"
   },
@@ -8417,7 +8417,7 @@
       "file": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - อบรมครูผู้ได้รับยกเว้นใบอนุญาต ฉบับที่ 2 2568.pdf",
       "category": "ระเบียบ",
       "type": "ระเบียบ",
-      "issuer": "สำนักงานเลขาธิการคุรุสภา",
+      "issuer": "เลขาธิการคุรุสภา",
       "year": 2568,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -8437,27 +8437,76 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "ocr",
-      "textChars": 3177
+      "status": "in_force",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานสำเนาราชกิจจานุเบกษาในคลังเทียบกับประกาศ มติ และการดำเนินงานปัจจุบันของคุรุสภา",
+      "statusBasis": "ใช้บังคับตั้งแต่วันประกาศในราชกิจจานุเบกษาเมื่อวันที่ 30 ตุลาคม 2568 แทนที่ข้อ 3 และข้อ 9 ของระเบียบ พ.ศ. 2566 และไม่พบฉบับแก้ไขหรือยกเลิกภายหลังในการตรวจครั้งนี้; การอบรม KSP 7 Module ยังดำเนินการใน พ.ศ. 2569",
+      "officialUrl": "https://www.ksp.or.th/2025/10/31/59394/",
+      "gazette": "เล่ม 142 ตอนพิเศษ 347 ง วันที่ 30 ตุลาคม 2568 หน้า 1–2",
+      "effectiveDate": "2025-10-30",
+      "reviewScope": "ตรวจชื่อฉบับ วันออก วันประกาศ วันใช้บังคับ ฐานอำนาจ และข้อความที่แทนที่ข้อ 3 และข้อ 9 ของฉบับฐาน รวมทั้งค้นหาฉบับแก้ไขหรือยกเลิกภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ราชกิจจานุเบกษาเผยแพร่ระเบียบฉบับที่ 2 พ.ศ. 2568",
+          "url": "https://www.ksp.or.th/2025/10/31/59394/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: มติคณะกรรมการคุรุสภา ครั้งที่ 10/2568",
+          "url": "https://www.ksp.or.th/2025/10/01/58949/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: การอบรมหลักสูตร 7 Module ภาคภาษาจีน พ.ศ. 2569",
+          "url": "https://www.ksp.or.th/2026/03/23/61339/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amends",
+          "targetId": "doc-82a516a5",
+          "label": "แก้ไขระเบียบฉบับฐาน พ.ศ. 2566",
+          "basis": "ข้อ 3 แทนที่ข้อ 3 และข้อ 4 แทนที่ข้อ 9 ของฉบับฐาน"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 40 (2)"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-2f88e1b4",
+          "label": "อ่านร่วมกับข้อบังคับการรับรองความรู้และประสบการณ์ทางวิชาชีพ พ.ศ. 2567",
+          "basis": "อ้างข้อ 4 และข้อ 6 เป็นฐานการรับรองความรู้"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-bec2d027",
+          "label": "อ่านร่วมกับประกาศการอนุญาตประกอบวิชาชีพชั่วคราว พ.ศ. 2567",
+          "basis": "ขยายกลุ่มผู้เข้าอบรมให้สอดคล้องกับบุคคลที่ได้รับอนุญาตหรือได้รับยกเว้นตามกฎหมายปัจจุบัน"
+        }
+      ],
+      "reformStatus": "done",
+      "reformCode": "ก-10",
+      "note": "ข้อ 3 ใหม่ขยายผู้มีสิทธิเข้าอบรมให้รวมบุคคลอื่นที่คณะกรรมการคุรุสภากำหนดตามมาตรา 43 วรรคสอง (5) และ (8) ซึ่งมีคุณสมบัติและไม่มีลักษณะต้องห้ามตามประกาศ พ.ศ. 2567; ข้อ 9 ใหม่เปลี่ยนช่องทางลงทะเบียน ชำระเงิน และอบรมเป็นแพลตฟอร์มของสำนักงานเลขาธิการคุรุสภา; งดเผยแพร่ข้อความ OCR เพราะอ่านตัวอักษรและตัวเลขคลาดเคลื่อน",
+      "hasText": false,
+      "publicFulltext": false,
+      "textSource": null,
+      "textChars": null
     },
     {
       "id": "doc-82a516a5",
@@ -8465,7 +8514,7 @@
       "file": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - อบรมความรู้ครูผู้ได้รับยกเว้นใบอนุญาต 2566.pdf",
       "category": "ระเบียบ",
       "type": "ระเบียบ",
-      "issuer": "สำนักงานเลขาธิการคุรุสภา",
+      "issuer": "เลขาธิการคุรุสภา",
       "year": 2566,
       "ext": "pdf",
       "sourceCorpus": "กฎหมายคุรุสภา",
@@ -8485,75 +8534,76 @@
       "isDeliverable": false,
       "audience": "public",
       "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
+      "evidenceLevel": "official_online",
       "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
+      "status": "amended",
+      "verificationStatus": "reviewed",
+      "verificationConfidence": "high",
+      "verifiedAt": "2569-09-21",
+      "verifiedBy": "ตรวจทานสำเนาราชกิจจานุเบกษาในคลังเทียบกับประกาศและการดำเนินงานปัจจุบันของคุรุสภา",
+      "statusBasis": "ระเบียบกำหนดให้ใช้บังคับนับแต่วันออกระเบียบเมื่อวันที่ 24 กรกฎาคม 2566 และประกาศในราชกิจจานุเบกษาเมื่อวันที่ 8 สิงหาคม 2566 ต่อมาฉบับที่ 2 พ.ศ. 2568 แทนที่เฉพาะข้อ 3 และข้อ 9 โดยไม่ยกเลิกข้ออื่น จึงต้องอ่านฉบับฐานร่วมกับฉบับแก้ไข",
+      "officialUrl": "https://www.ksp.or.th/2023/07/26/45129/",
+      "gazette": "เล่ม 140 ตอนพิเศษ 189 ง วันที่ 8 สิงหาคม 2566 หน้า 3–7",
+      "effectiveDate": "2023-07-24",
+      "reviewScope": "ตรวจชื่อฉบับ วันออก วันประกาศ เนื้อหาหลักสูตร 7 หน่วยการเรียนรู้ รูปแบบการอบรมและเทียบประสบการณ์ เกณฑ์ผ่าน ค่าลงทะเบียน และผลของฉบับที่ 2 พ.ศ. 2568 รวมทั้งค้นหาฉบับแก้ไขหรือยกเลิกภายหลังถึงวันที่ 21 กันยายน 2569",
+      "reviewSources": [
+        {
+          "label": "สำเนาราชกิจจานุเบกษาในคลังกฎหมายคุรุสภา",
+          "type": "local_original",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ระเบียบหลักสูตรอบรมมาตรฐานความรู้วิชาชีพครู พ.ศ. 2566",
+          "url": "https://www.ksp.or.th/2023/07/26/45129/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: ราชกิจจานุเบกษาเผยแพร่ระเบียบฉบับที่ 2 พ.ศ. 2568",
+          "url": "https://www.ksp.or.th/2025/10/31/59394/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        },
+        {
+          "label": "คุรุสภา: การอบรมหลักสูตร 7 Module ภาคภาษาจีน พ.ศ. 2569",
+          "url": "https://www.ksp.or.th/2026/03/23/61339/",
+          "type": "official_agency",
+          "accessedAt": "2569-09-21"
+        }
+      ],
+      "legalRelations": [
+        {
+          "type": "amended_by",
+          "targetId": "doc-8fcac4a9",
+          "label": "แก้ไขข้อ 3 และข้อ 9 โดยฉบับที่ 2 พ.ศ. 2568",
+          "basis": "ฉบับที่ 2 แทนที่กลุ่มผู้มีสิทธิเข้าอบรมและช่องทางดำเนินการ"
+        },
+        {
+          "type": "issued_under",
+          "targetId": "doc-eedf388f",
+          "label": "ออกตามพระราชบัญญัติสภาครูและบุคลากรทางการศึกษา พ.ศ. 2546",
+          "basis": "อาศัยอำนาจตามมาตรา 40 (2)"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-2f88e1b4",
+          "label": "อ่านร่วมกับข้อบังคับการรับรองความรู้และประสบการณ์ทางวิชาชีพ พ.ศ. 2567",
+          "basis": "ฉบับแก้ไขอ้างข้อ 4 และข้อ 6 ของข้อบังคับนี้เป็นฐานการรับรองความรู้"
+        },
+        {
+          "type": "read_with",
+          "targetId": "doc-bec2d027",
+          "label": "อ่านร่วมกับประกาศการอนุญาตประกอบวิชาชีพชั่วคราว พ.ศ. 2567",
+          "basis": "คุณสมบัติของผู้เข้าอบรมตามข้อ 3 ที่แก้ไขเชื่อมกับผู้ได้รับอนุญาตหรือบุคคลตามมาตรา 43 วรรคสอง"
+        }
+      ],
+      "reformStatus": "amend",
+      "reformCode": "ก-10",
+      "note": "หลักสูตรยังคงมี 7 หน่วยการเรียนรู้ เลือกอบรมหรือเทียบประสบการณ์เป็นรายหน่วยได้ ต้องผ่านมากกว่าร้อยละ 60 ทุกหน่วย และอัตราค่าลงทะเบียนในข้อ 8 ยังไม่ถูกแก้ไขโดยฉบับที่ 2; ข้อ 3 และข้อ 9 ต้องใช้ข้อความตามฉบับแก้ไข พ.ศ. 2568",
       "hasText": true,
       "publicFulltext": true,
       "textSource": "pdf",
       "textChars": 9705
-    },
-    {
-      "id": "doc-54ef7c50",
-      "title": "ระเบียบสำนักงานคุรุสภา - อบรมความรู้ครูผู้ได้รับยกเว้นใบอนุญาต 2566 เอกสาร 4 หน้า",
-      "file": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - อบรมความรู้ครูผู้ได้รับยกเว้นใบอนุญาต 2566 เอกสาร 4 หน้า.pdf",
-      "category": "ระเบียบ",
-      "type": "ระเบียบ",
-      "issuer": "สำนักงานเลขาธิการคุรุสภา",
-      "year": 2566,
-      "ext": "pdf",
-      "sourceCorpus": "กฎหมายคุรุสภา",
-      "sourceCorpora": [
-        "กฎหมายคุรุสภา"
-      ],
-      "sources": [
-        {
-          "corpus": "กฎหมายคุรุสภา",
-          "path": "04_ระเบียบ/ระเบียบสำนักงานคุรุสภา - อบรมความรู้ครูผู้ได้รับยกเว้นใบอนุญาต 2566 เอกสาร 4 หน้า.pdf",
-          "ext": "pdf",
-          "sha256": "a0515aca0218b5a1de60813d5d28321970759c0049aae2a9027adb074b3fe39e",
-          "bytes": 143298
-        }
-      ],
-      "isKurusapha": true,
-      "isDeliverable": false,
-      "audience": "public",
-      "localCopyAvailable": true,
-      "evidenceLevel": "local_file",
-      "publicCopyUrl": null,
-      "status": "unverified",
-      "verificationStatus": "unverified",
-      "verificationConfidence": null,
-      "verifiedAt": null,
-      "verifiedBy": null,
-      "statusBasis": "ยังไม่ได้ตรวจยืนยันกับต้นฉบับทางการและกฎหมายที่แก้ไขเพิ่มเติม",
-      "officialUrl": null,
-      "gazette": null,
-      "effectiveDate": null,
-      "reviewScope": null,
-      "reviewSources": [],
-      "legalRelations": [],
-      "reformStatus": null,
-      "reformCode": null,
-      "note": null,
-      "hasText": true,
-      "publicFulltext": true,
-      "textSource": "pdf",
-      "textChars": 9778
     },
     {
       "id": "doc-eb6b598d",
