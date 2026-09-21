@@ -164,6 +164,21 @@ table.tbl tr:nth-child(even) td { background: #fafbfd; }
 .proposal-details { display: grid; grid-template-columns: minmax(150px, 210px) 1fr; margin: 12px 0 0; border-top: 1px solid var(--line); }
 .proposal-details dt, .proposal-details dd { margin: 0; padding: 7px 5px; border-bottom: 1px solid var(--line); }
 .proposal-details dt { color: var(--navy); font-weight: 700; }
+.proposal-subhead { margin: 16px 0 6px; color: var(--navy); }
+.draft-panel { margin-top: 18px; border: 1px solid #bdcad8; border-radius: 12px; background: #f8fafc; overflow: hidden; }
+.draft-panel > summary { padding: 13px 16px; color: var(--navy); background: #eaf1f8; font-weight: 700; cursor: pointer; }
+.draft-panel[open] > summary { border-bottom: 1px solid #bdcad8; }
+.draft-body { padding: 18px; }
+.draft-title { margin: 0 0 12px; color: var(--navy); font-size: 20px; text-align: center; }
+.draft-clause { padding: 10px 0; border-top: 1px solid var(--line); }
+.draft-clause h5, .domain-card h5 { margin: 0 0 6px; color: var(--navy); font-size: 17px; }
+.draft-clause p { margin: 5px 0; }
+.draft-clause ol, .domain-card ul, .domain-card ol { margin: 6px 0 0; padding-left: 25px; }
+.draft-annex { margin-top: 20px; padding-top: 16px; border-top: 3px solid var(--navy); }
+.draft-annex > h4 { margin: 0 0 12px; color: var(--navy); font-size: 20px; }
+.domain-card { margin: 10px 0; padding: 14px 16px; border: 1px solid var(--line); border-left: 5px solid var(--teal); border-radius: 9px; background: #fff; }
+.domain-card h6 { margin: 10px 0 2px; color: var(--ink); font-size: 15px; }
+.experience-card { border-left-color: var(--accent); }
 .opinion > section { padding-top: 3px; }
 .opinion > section h3 { margin-bottom: 3px; }
 .opinion > section p { margin-top: 0; }

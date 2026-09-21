@@ -478,6 +478,36 @@ async function initProposals() {
         ["เกณฑ์ตรวจสอบ", item.legalTests], ["ทางเลือก", item.alternatives], ["ผลกระทบ/การรับฟัง", item.impact]
       ].filter(([, value]) => value);
       if (fields.length) article.append(el("dl", {class: "proposal-details"}, fields.map(([term, value]) => [el("dt", {}, term), el("dd", {html: mark(value)}, )])));
+      if (item.sources && item.sources.length) article.append(
+        el("h4", {class: "proposal-subhead"}, "แหล่งประกอบข้อเสนอ"),
+        el("ul", {class: "source-list"}, item.sources.map(source => el("li", {},
+          source.url ? el("a", {href: source.url, target: "_blank", rel: "noopener"}, `${source.label} ↗`) : source.label)))
+      );
+      if (item.draft) {
+        const draft = item.draft;
+        const body = el("div", {class: "draft-body"},
+          draft.title ? el("h4", {class: "draft-title"}, draft.title) : null,
+          draft.statusNote ? el("p", {class: "notice subtle"}, draft.statusNote) : null,
+          ...(draft.preamble || []).map(paragraph => el("p", {html: mark(paragraph)})));
+        (draft.clauses || []).forEach(clause => body.append(
+          el("section", {class: "draft-clause"},
+            el("h5", {}, `${clause.number}${clause.heading ? ` ${clause.heading}` : ""}`),
+            ...(clause.body || []).map(paragraph => el("p", {html: mark(paragraph)})),
+            clause.points && clause.points.length ? el("ol", {class: "thai-points"}, clause.points.map(point => el("li", {html: mark(point)}))) : null)
+        ));
+        if (draft.annex) {
+          const annex = el("section", {class: "draft-annex"}, el("h4", {}, draft.annex.title));
+          (draft.annex.domains || []).forEach((domain, index) => annex.append(
+            el("article", {class: "domain-card"}, el("h5", {}, `${index + 1}. ${domain.name}`),
+              el("h6", {}, "สาระความรู้"), el("ul", {}, (domain.knowledge || []).map(value => el("li", {html: mark(value)}))),
+              el("h6", {}, "สมรรถนะ"), el("ul", {}, (domain.competencies || []).map(value => el("li", {html: mark(value)}))))));
+          if (draft.annex.experience && draft.annex.experience.length) annex.append(
+            el("article", {class: "domain-card experience-card"}, el("h5", {}, "มาตรฐานประสบการณ์วิชาชีพ"),
+              el("ol", {}, draft.annex.experience.map(value => el("li", {html: mark(value)})))));
+          body.append(annex);
+        }
+        article.append(el("details", {class: "draft-panel"}, el("summary", {}, "อ่านร่างถ้อยคำฉบับเต็ม"), body));
+      }
       section.append(article);
     });
     $("#app").append(section);
